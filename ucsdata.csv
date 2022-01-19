@@ -1,6 +1,140 @@
 label,text
+1,the user uses the find filter and select capabilities in pontis to access the desired structure.
+1,a map based query can be performed.
+1,user finds and selects the desired structure s.
+1,user views data for the selected structure s.
+1,the user uses the find filter and select capabilities in pontis to access the desired project.
+1,a map based query can be performed.
+1,user finds and selects the desired project s.
+1,user views data for the selected project s.
+1,select and view reports description.
+1,the user selects a report to run against the pontis database.
+1,the selected report is generated and displayed on the screen.
+1,this scenario covers entering editing inventory and inspection data.
+1,user is logged into pontis and has the necessary permissions.
+1,the user creates a new structure by copying an existing structure or manually entering in data for the structure.
+1,the user can also modify inventory data for an existing structure.
+1,data for the new structure and the modifications to the existing structure are stored in the pontis database.
+1,the user creates a new inspection for a structure by copying the last inspection on the structure or manually entering in data for the new inspection.
+1,the user can also modify existing inspection data for the structure.
+1,when appropriate results from multiple inspectors working together may be merged for one structure to create a single combined or consolidated inspection.
+1,data for the new inspection and the modifications to the existing inspections are stored in the pontis database.
+1,the user calculates derived ratings nbi condition ratings structural rating geometric rating sufficiency rating and sd fo status based on inspection data.
+1,users may override any calculated nbi condition rating such as deck superstructure substructure or culvert condition as necessary.
+1,the dependent ratings are calculated and if accepted by the user are stored in the pontis database.
+1,ratings for deck superstructure and substructure or culvert condition can be entered directly to override calculated results.
+1,the user updates the deterioration probabilities and preservation action costs based on expert elicitation and or inspection data.
+1,the costs and probabilities are used to develop the optimal preservation policy.
+1,updated preservation policy data is stored and displayed.
+1,user is logged into pontis and has the necessary permissions to use and potentially modify the bridge inventory inspection history work recommendations and project planning data as well as the necessary model information.
+1,configure simulation parameters description.
+1,the user specifies all settings for the simulation including the improvement model parameters agency rules the simulation time frame and the annual budget.
+1,the simulation settings are stored under a scenario name.
+1,perform program simulation description.
+1,the user runs a program simulation for one or more structure s with the specified settings in order to view network trends and generate bridge level work recommendations.
+1,the results of the program simulation are accurately generated and stored in the pontis database.
+1,the user creates a new project by selecting pontis generated work recommendations inspector work candidates and user specified work items or edits data for an existing project.
+1,the user can also edit split or combine existing projects.
+1,project information can be imported from a file to create or update projects.
+1,data for the new project and the modifications to the existing project are stored in the pontis database.
+1,perform validation cross validation and quality assurance tasks in context and display the result.
+1,invalid data items are listed as a result.
+1,perform database integration task with other bridgeware products.
+1,transfer load rating data from virtis to pontis.
+1,bridgeware databases are successfully integrated.
+1,create new users description.
+1,an administrator adds a new user to pontis application and assigns him her to a role.
+1,new users are added to the system with designated privileges.
+1,perform user authentication description.
+1,when a user logs into pontis it validates the user name and password.
+1,access to pontis functionalities are controlled depending on the user role.
+1,connect and run pontis with designated privileges.
+1,configure application functionalities description.
+1,user can change the application configurations.
+1,modified configuration are updated correctly and application operation changes immediately or after restart as appropriate to reflect the new configuration settings.
+1,configure user interface presentation description.
+1,user modifies the user interface items.
+1,the changes are saved and applied correctly.
+1,user manages the administration functionalities that affect application operation.
+1,the admin functionalities are executed as defined by the administrator.
+1,give the buy instruction.
+1,save the buy instruction.
+1,match the instructions with the same stock id.
+1,make a trade by matching.
+1,modify the information of matched instructions.
+1,all the operations have been suspended.
+1,some trade exceptions come up.
+1,no matched stock with the buy instruction.
+1,give the sell instruction.
+1,save the sell instruction.
+1,match the instructions with the same stock id.
+1,make a trade by matching.
+1,modify the information of matched instructions.
+1,all the operations have been suspended.
+1,some deal exceptions come up.
+1,no matched stock with the buy instruction.
+1,give the cancel instruction.
+1,save the cancel instruction.
+1,cancel the correlative instruction.
+1,all the operations have been suspended.
+1,the instruction concerned has been implemented.
+1,no matched instruction to be cancelled.
+1,trading information release system.
+1,send a query.
+1,implement the query.
+1,structuralize the queried data.
+1,send the data to release.
+1,user accesses the main inventory screen.
+1,the screen displays all inventory departments.
+1,user clicks a department cell.
+1,the screen displays all inventory categories for the selected department.
+1,user clicks a category cell that contains sub categories.
+1,the screen displays all inventory sub categories for the selected category.
+1,user clicks a sub category cell leaf category.
+1,for a unique item category.
+1,the screen displays a list of all inventory items for that selected category.
+1,user clicks an item in the items list.
+1,the screen displays the details for the item.
+1,for a stock item category.
+1,the screen displays the details for that stock item category.
+1,for a under category.
+1,nothing happens the category cell is not clickable.
+1,at any point the user may click on a department on the inventory department shortcuts list which takes the user to the inventory view for that particular department.
+1,the user may click the view all items button at any level in the inventory to view a list of all items in that department or category.
+1,the user may click the view all items button on the main inventory screen to view the complete list of all items in the inventory.
+1,once in the view items list screen the user may filter the results by searching for.
+1,a particular item by item number.
+1,all items with donor department category or description matching the provided keyword.
+1,all items with certain attributes features and or details.
 1,user accesses the main inventory screen.
 1,system displays the add department button.
+1,user clicks the add department button.
+1,user enters the department data.
+1,system validates the department data.
+1,system adds the new department to the inventory.
+1,user is taken back to the main inventory screen.
+1,user navigates to a department see view inventory.
+1,system displays the edit department button.
+1,user clicks the edit department button.
+1,system displays the department data.
+1,user edits department data.
+1,system validates the department data.
+1,system updates the department information.
+1,user is taken back to the department screen.
+1,user navigates to a department see view inventory.
+1,system displays the edit department button.
+1,user clicks the edit department button.
+1,system displays the department data.
+1,user clicks the delete department button.
+1,system validates the department deletion.
+1,system removes the department from the inventory.
+1,user is taken back to the main inventory screen.
+1,user cancels the department add and is taken back to the main inventory screen.
+1,during data validation data is deemed invalid and an error message is presented to the user.
+1,user cancels the department edit and is taken back to the main inventory screen.
+1,during data validation data is deemed invalid and an error message is presented to the user.
+1,user cancels the department deletion and is taken back to the department screen.
+1,during deletion validation deletion is deemed invalid and an error message is presented to the user.
 1,user navigates to a department or category see view inventory.
 1,system displays the add category buttons.
 1,user clicks the desired add category button.
@@ -16,7 +150,8 @@ label,text
 1,user edits category data.
 1,system validates the category data.
 1,system updates the category information.
-1,user is taken back to the category screen user navigates to a category see view inventory.
+1,user is taken back to the category screen.
+1,user navigates to a category see view inventory.
 1,system displays the edit category button.
 1,user clicks the edit category button.
 1,system displays the appropriate screen for the category type.
@@ -35,10 +170,11 @@ label,text
 1,in this case user selects the parent department or category of the new category to be created.
 1,user enters the new category data.
 1,user selects the type of move to be performed.
-1,move selected categories as is and make them children of the target department or category merge the contents items of the selected categories and add them to the target department or category.
+1,move selected categories as is and make them children of the target department or category.
+1,merge the contents items of the selected categories and add them to the target department or category.
 1,system validates the entered data.
 1,system moves the selected categories.
-1,user is taken back to the parent department or category of the moved categories add category.
+1,user is taken back to the parent department or category of the moved categories.
 1,user cancels the category add and is taken back to parent department or category.
 1,during data validation data is deemed invalid and an error message is presented to the user.
 1,user cancels the category edit and is taken back to category screen.
@@ -46,7 +182,7 @@ label,text
 1,user cancels the category deletion and is taken back to the category screen.
 1,during deletion validation deletion is deemed invalid and an error message is presented to the user.
 1,user cancels the category move and is taken back to the parent department or category screen.
-1,during move validation move is deemed invalid and an error message is presented to the user.
+1,during move validation move is deemed invalid and an error message is presented to the user view item attributes.
 1,user accesses the main inventory screen.
 1,system displays the edit attributes button.
 1,user clicks the edit attributes button.
@@ -57,7 +193,39 @@ label,text
 1,view item details.
 1,user accesses the main inventory screen.
 1,system displays the edit details button.
-1,user clicks the edit details button user accesses the main inventory screen.
+1,user clicks the edit details button system displays the edit details screen which displays all existing item details and their detail x department and category assignments.
+1,optionally user filters view by detail status active inactive all.
+1,user clicks the done button.
+1,user is taken back to the main inventory screen.
+1,edit item attributes.
+1,user accesses the main inventory screen.
+1,system displays the edit attributes button.
+1,user clicks the edit attributes button.
+1,system displays the edit attributes screen which displays all existing item attributes and their attribute x department assignments.
+1,optionally user filters view by attribute status active inactive all.
+1,user edits attributes.
+1,user changes attribute x department assignments.
+1,user changes attribute data.
+1,user changes attribute active x inactive status.
+1,user creates new attribute.
+1,system validates the attribute data.
+1,system updates the item attribute information.
+1,user clicks the done button.
+1,user is taken back to the main inventory screen user accesses the main inventory screen.
+1,system displays the edit details button.
+1,user clicks the edit details button.
+1,system displays the edit details screen which displays all existing item details and their detail x department and category assignments.
+1,optionally user filters view by detail status active inactive all.
+1,user edits details.
+1,user changes detail x department or category assignments.
+1,user changes detail data.
+1,user changes detail active x inactive status.
+1,user creates new detail.
+1,system validates the detail data.
+1,system updates the item detail information.
+1,user clicks the done button.
+1,user is taken back to the main inventory screen.
+1,user accesses the main inventory screen.
 1,the screen displays all inventory departments in matrix format see view inventory.
 1,user drills down to the appropriate category for the item.
 1,if in donation processing mode the item entry screen is presented automatically.
@@ -69,7 +237,9 @@ label,text
 1,inventory is updated.
 1,system gives the option of printing an item tag.
 1,user prints item tag s s for unique or stock item s.
-1,user attaches tag s to the item s user accesses the main inventory screen.
+1,user attaches tag s to the item s at any point the user may click on a department on the inventory department shortcuts list which takes the user to the inventory view for that particular department.
+1,at any point while in the item add screen the user may cancel the operation.
+1,user accesses the main inventory screen.
 1,the screen displays all inventory departments in matrix format with option to select and or edit items to move them to a new department category.
 1,user drills down to the desired existing inventory item see view inventory.
 1,the item detail screen is presented.
@@ -78,6 +248,7 @@ label,text
 1,item information is updated in the inventory.
 1,system gives the option of re printing then item tag.
 1,user optionally re prints the item tag and attaches it to the item.
+1,adjust item quantity.
 1,user accesses the main inventory screen.
 1,the screen displays all inventory departments in matrix format.
 1,user drills down to the desired existing inventory item see view inventory.
@@ -108,13 +279,24 @@ label,text
 1,the item detail screen is presented.
 1,user clicks the item history button.
 1,the system displays the item history screen containing current and historical information about the inventory item.
-1,modify inventory item.
 1,user cancels the operation and is taken back to the item selection screen.
-1,during data validation data is deemed invalid and an error message is presented to the user accesses the acquisitions screen.
+1,during data validation data is deemed invalid and an error message is presented to the user.
+1,split inventory item.
+1,user cancels the operation and is taken back to the item selection screen.
+1,during data validation data is deemed invalid and an error message is presented to the user user accesses the inventory entry screen see add item to inventory manage inventory items.
+1,system shows price recommendations based on current item data and default price suggestion configuration options.
+1,user modifies item data.
+1,system makes new price suggestions based on new item data.
+1,user accesses the acquisitions screen.
 1,the screen displays a list of all acquisitions latest ones at the top of the list.
 1,user may optionally filter the acquisitions displayed on the screen by changing filtering options.
 1,user clicks on an acquisition record.
-1,system display the details for that acquisition including expected items donor or primary contact arrives at receiving dock with a valid donation number.
+1,system display the details for that acquisition including expected items.
+1,drop off acquisitions.
+1,user may alternatively click the new drop off button on the acquisition list screen which redirects the user to the crm acquisition creation screen.
+1,user creates new drop off acquisition in the crm system.
+1,user returns to the acquisitions screen and sees the newly created drop off acquisition.
+1,user can use a bar code scanner to scan the acquisition ticket generated at customer service donor or primary contact arrives at receiving dock with a valid donation number.
 1,receiving associate locates donation request in the system see view acquisitions.
 1,system displays donation request information.
 1,receiving associate enters information about each donated item into the donation request see add item to inventory.
@@ -129,223 +311,31 @@ label,text
 1,receiving associate closes donation request buyer arrives at the cashier or checkout desk with the items to be purchased.
 1,sales associate scans the item tags.
 1,sales associate processes the sale of the items in quickbooks pos.
-1,the system updates the inventory to reflect the sale user selects the option to parse a transformation language program from currently open application alt.
-1,user selects a transformation language program file.
-1,tlp to parse refer to use case alt.
-1,the hats gui compares the time stamps on the lexical specification and grammar files to the time stamp on the application s parser file.
-1,the parser file is the youngest of the three files alt alt.
-1,the hats gui sends a message to the host os to start either the parsetarget or the parseprogram program and sends the names of the target file or program file the output file and the parser file to the host os.
-1,hats sml parses the input file alt and writes the output to the output file.
-1,end of use case.
-1,alt the user selects the option to parse a target file instead of a transformation language program.
-1,a a the user selects a target file to parse refer to use case alt.
-1,a b use case continues with step.
-1,alt a file is already selected.
-1,a a step is skipped.
-1,a b use case continues with step.
-1,alt no parser file exists.
-1,a a the hats gui sends a message to the host os to start the makeparser program and sends the lexical specification and grammar file names and the parser file name.
-1,a b the host os starts the makeparser program.
-1,a c makeparser writes the output parser file alt.
-1,a d use case continues with step.
-1,user selects the option to execute a transformation language program from the currently selected application.
-1,user selects a transformation language program file refer to use case alt.
-1,the hats gui compares the time stamp on the lexical specification and grammar files to the time stamp on the parser file.
-1,the parser file is younger alt alt.
-1,the hats gui compares the time stamp of the parsed program file and the parser the transformation language program and the user defined library files.
-1,the parsed program file is younger than any of these files alt alt.
-1,the hats gui clears the displays for the standard error and standard output.
-1,the hats gui sends a message to the host os to start the applytransformations program and sends the names of the parsed program file and the user defined library file to the host os.
-1,the hats gui redirects the standard error and standard output streams of the applytransformation process and collects data written to these streams for later display.
-1,the hats sml applytransformation program writes output sdts to files named in the transformation language program.
-1,the transformation language program contains all references to input and output files.
-1,the hats gui does not handle file input and file output for applytransformaion.
-1,end of use case.
-1,parse transformation language program refer to use case.
-1,run transformation refer to use case.
-1,prepare application refer to use case.
-1,display sdt transformation output use case.
-1,display pretty printed text transformation output refer to use case.
-1,system requests from host os a list of existing applications within current directory.
-1,host os returns list of files within current directory.
-1,system displays list of existing applications within current directory alt alt.
-1,user selects an application within the list alt.
-1,system sets selected application as the current application.
-1,end of use case.
-1,system requests from host os a list of files in the current directory.
-1,host os only returns list of files in the current directory.
-1,system displays this list of files alt alt.
-1,user selects a file within the list alt alt.
-1,system sets selected file as the current file.
-1,end of use case.
-1,user selects option to close the currently selected application.
-1,system asks for confirmation from user to close application.
-1,user confirms to close application alt.
-1,system checks that the changes to currently selected application s configuration have been saved alt.
-1,system sets currently selected application to none.
-1,end of use case.
-1,user selects to save a currently open application using a different directory name.
-1,system requests user for a name to save the open application.
-1,user enters or selects a name for the application to be saved alt.
-1,system confirms that application name is unique alt.
-1,system requests host os to create new directory with the given name.
-1,host os creates new application with the entered name alt.
-1,system requests host os to copy core files configuration files and.
-1,tlp files to the new directory.
-1,host os copies all files from selected application to created application alt.
-1,system informs user that application has been saved with entered name.
-1,user selects option to edit a file within the currently selected application.
-1,user selects file to edit use case.
-1,system checks application to determine if editor is associated with this file.
-1,an editor is associated with the file if the configuration explicitly associates this file with an editor or an editor is associated with files of this type.
-1,an editor is associated with this file alt.
-1,the hats gui sends message to host os to start the preferred editor in new process and passes file name to editor.
-1,host os initiates process puts editor in process sends the filename as argument.
-1,alt no editor is associated with this file.
-1,a a the hats gui prompts the user to select a configured editor.
-1,a b the user selects a configured editor.
-1,a c the hats gui prompts the user to associate the editor with the file or the file type.
-1,a d the user selects associating the editor with the file type alt alt.
-1,a e the hats gui associates the editor with the file type by updating the application configuration.
-1,a f the selected editor becomes the preferred editor.
-1,a g use case continues with step.
-1,user selects option to create a new application.
-1,close existing application if one is selected refer to use case scenario.
-1,system asks user to enter a name and location for new application.
-1,user enters name and location for new application alt.
-1,system requests host os to create new application.
-1,host os creates new application alt.
-1,system informs user that new application has been created.
-1,user selects option to configure editors.
-1,the system prompts for editor name and configuration information.
-1,editor configuration information must be sufficient to start the editor on the host os.
-1,user enters editor name and parameters alt.
-1,system saves editor configuration in application configuration.
-1,user selects option to configure the colors and shapes of the graphical representation of an sdt.
-1,system displays a list containing types of displayed nodes and their corresponding current configured colors.
-1,the types of displayed nodes are given in table.
-1,user selects a type of node from list.
-1,system displays a list of supported colors and shapes.
-1,user selects a color and a shape from the list for the selected type of displayed node alt.
-1,system sets the selected values as the color and shape for the type of displayed node selected.
-1,user selects option to configure the default number of levels to expand in response to a single mouse click.
-1,system asks user to select or enter a number of levels to expand.
-1,user enters or selects a number of levels to expand.
-1,number entered is a natural number.
-1,system sets the entered or selected number of levels as the default number of levels to expand.
-1,end of use case.
-1,user selects option to associate file types with editors alt.
-1,system displays a list of configured editors.
-1,refer to use case.
-1,system displays a list of file types.
-1,user selects a file type from list alt.
-1,user selects an editor from list alt.
-1,system associates the selected file type with the selected editor.
-1,when the user tries to edit a file of the type selected the system will request the host os to initiate a process with the associated editor.
-1,refer to use case.
-1,end the user clicks the mouse in the navigation window sdt display.
-1,the system determines the node in the displayed graph closest to the mouse cursor and redraws the displayed graph with this node in the center of the main display.
-1,the system updates the locator box in the navigation window display.
-1,user points the mouse cursor at a node and clicks the left mouse button alt.
-1,system displays the tree by expanding descendants of the node in the displayed graph.
-1,the number of levels to expand is given by the application configuration.
-1,if fewer than this number of levels exist then all descendants of the chosen node are displayed.
-1,system changes the shape and color of selected node as specified in the application configuration to indicate that it has become an expanded node.
-1,user points the mouse cursor at a node and clicks the left mouse button.
-1,system removes all descendants of the selected node from the displayed graph.
-1,system changes the shape and color of selected node as specified in the application configuration to indicate that it has become a collapsed node.
-1,user selects one or more displayed nodes.
-1,refer to use case.
-1,user selects option to hide selected displayed nodes.
-1,system removes the selected nodes from the displayed graph.
-1,system changes the types of the displayed nodes remaining on the screen to indicate that there are hidden nodes in the displayed graph.
-1,user selects option to search sdt for a desired sub tree.
-1,system asks user for the criteria to search nodes.
-1,search criteria for sdts are presented in appendix e.
-1,user enters search criteria.
-1,system finds the first matching sub tree in the sdt starting at the current keyboard cursor location alt.
-1,system creates a displayed graph for the sub tree matching the search criteria.
-1,the displayed nodes of the matching sub tree are highlighted.
-1,if no nodes match the search criteria none are highlighted.
-1,if both sdt and pretty printed text are displayed the pretty printed text corresponding to the highlighted nodes of the sdt is highlighted.
-1,system displays text of leaf nodes in currently displayed graph in a text window.
-1,user selects a portion of displayed text.
-1,system highlights selected portion of text in the text window.
-1,user selects option to copy selected text.
-1,minimally the system will copy selected text in response to the ctrl insert key combination.
-1,system puts the selected and copied text in the host os copy paste buffer.
-1,the user selects the option to refresh the display of the sdt.
-1,the system disposes of the currently displayed sdt.
-1,the system reads the sdt file and displays the newly generated sdt.
-1,the display of the sdt contains approximately the same number of nodes as the previously displayed sdt.
-1,user selects option to search pretty printed text for desired text.
-1,system asks user for the criteria to search text.
-1,text search criteria are given in appendix f.
-1,user enters or selects criteria to search text.
-1,system finds those portions of pretty printed text that match the search criteria and highlights those portions of the text that match alt.
-1,if both the pretty printed text and the graphical representation of an sdt are displayed the system finds the corresponding nodes of the sdt of the selected portion of pretty printed text and highlights the corresponding nodes of the sdt.
-1,user selects the option to pretty print a target from the currently selected application.
-1,user selects a target sdt refer to use case alt.
-1,no pretty print style file is associated with the target file.
-1,the hats gui prompts the user to select a pretty print style file.
-1,user selects a pretty print style file refer to use case alt.
-1,hats gui generates a file name by appending.
-1,txt to the target sdt root name.
-1,the hats gui verifies that no file with this name exists in the current directory.
-1,this file becomes the output file name alt.
-1,the hats gui sends a message to the host os to start the pretty print program and sends the target sdt file name the pretty print style file name and the output file name to pretty print as command line arguments.
-1,hats sml applies the style file to the target sdt and writes the output to the output file specified on the command line alt.
-1,the coordinator press manage requests the coordinator use any function.
-1,the coordinator will manage all requests function.
-1,the coordinator can add new request.
-1,the request sent to supplier login in failed there is no suppliers for his requests or send error.
-1,customer first clicks on the button or link to initiate registration process.
+1,the system updates the inventory to reflect the sale customer first clicks on the button or link to initiate registration process.
 1,system prompts the customer to fill out his her first name last name billing address shipping address email address and their password.
 1,system validates the customer s information.
 1,system creates a new account for the customer.
 1,system creates a session cookie.
 1,system displays an account home page to customer.
-1,customer clicks on the button or link to initiate the login process.
-1,system prompts the customer for his her email and password.
-1,system verifies the information.
-1,system creates session cookie.
-1,system displays account home page to the customer alternative scenario a.
-1,system recognizes the customer s cookie a.
-1,go to step basic scenario.
-1,customer enters incorrect login information.
-1,system prompts the customer to resend login details to the email account.
-1,system sends an email to the registered email address.
-1,go to step basic scenario.
-1,customer clicks the button or link to initiate the process to edit the account.
-1,system displays the account home page to the customer.
-1,customer clicks the button or link in order to edit the account details.
-1,system verifies the changes.
-1,system stores new account information.
-1,customer clicks the button or link in order to add to the cart with specified quantity.
-1,system adds the item s to the cart.
-1,system prompts the customer to edit the quantity or remove the item from cart.
-1,customer confirms the items in the cart.
-1,system stores cookie with cart details.
-1,customer returns to product listings.
-1,customer terminates the web browser window after adding item s to cart.
-1,customer returns to weborder interface.
-1,system recognizes cookie and goes to step basic scenario with existing items in cart.
-1,customer clicks the button or link to initiate the checkout process.
-1,system calculates order of items in the shopping cart.
-1,system appends cookie with flag for checkout process.
-1,system presents the customer with the account details and payment methods.
-1,customer confirms account details and payment methods.
-1,system stores order confirmation and order details.
-1,system sends email confirmation to the customer.
-1,system appends cookie with flag for completed checkout process.
 1,administrator clicks button or link to initiate login process.
 1,system prompts the administrator for email and password.
 1,system creates session cookie.
-1,system displays account home page to administrator.
+1,system displays account home page to administrator alternative scenario.
+1,system recognizes administrator s cookie a.
+1,go to step basic scenario.
+1,administrator enters incorrect login information.
+1,system prompts administrator to resend login details to email account.
+1,system sends email to registered email address.
+1,go to step basic scenario.
 1,administrator clicks the button or link to initiate add user process.
 1,system prompts the administrator to fill out first name last name username email address password and privileges of the user.
 1,system validates new user information.
 1,system creates a new account for the new user with desired privileges.
+1,system displays account home page to administrator.
+1,administrator clicks button or link to initiate the remove user process.
+1,system prompts the administrator to select a user by searching or viewing a list of users.
+1,system displays user information.
+1,system confirms deletion of selected user.
 1,system displays account home page to administrator.
 1,administrator clicks the button or link to initiate change user properties process.
 1,system prompts the administrator to select a user by searching or viewing a list of users.
@@ -371,7 +361,7 @@ label,text
 1,system prompts the sales person for email and password.
 1,system verifies the information.
 1,system creates session cookie.
-1,system displays the account home page to sales person alternative scenario a.
+1,system displays the account home page to sales person alternative scenario.
 1,system recognizes sales person s cookie a.
 1,go to step basic scenario.
 1,sales person enters incorrect login information.
@@ -400,120 +390,339 @@ label,text
 1,system creates a new account for the customer.
 1,system creates session cookie.
 1,system displays account home page to customer.
-1,customer clicks the button or link to initiate login process.
 1,system prompts the customer for email and password.
 1,system verifies the information.
 1,system creates session cookie.
-1,system displays account home page to customer alternative scenario a.
-1,system recognizes customer s cookie a.
-1,go to step basic scenario.
-1,customer enters incorrect login information.
-1,system prompts customer to resend login details to email account.
-1,system sends email to registered email address.
-1,go to step basic scenario.
+1,system displays account home page to customer.
 1,customer clicks button or link to initiate the process to edit the account.
 1,system displays account home page to customer.
 1,customer clicks button or link to edit the account details.
 1,system verifies the changes.
 1,system stores new account information.
-1,sales person clicks the button or link to initiate update product attributes process.
-1,system prompts the sales person to select a product by searching or viewing a list of products.
-1,system displays all of the product attributes and allows sales person to update the product name product id product description product price update the product image product availability and or the number of items in the inventory.
-1,system validates the product information.
-1,system updates the product page and product information within the system.
-1,system displays the newly updated product page.
-1,this is a system initiation process.
-1,pre condition the system has been correctly installed in the computer.
-1,post condition the system is running and shows a graphical interface to the user.
-1,the user is able to use the system.
-1,normal sequence the user activates the application.
-1,the system starts and shows the graphical interface to the user.
-1,the user is able to use the system.
-1,condition there is a problem in loading a game or an artificial intelligence.
-1,action the system informs the user about the error.
-1,the program is terminated.
-1,the user starts a new game with the menu.
-1,the system shows a list of games available.
-1,the user selects one of these games.
-1,the system offers the user the possibility of select a starting position.
-1,if the user accepts the uc is executed.
-1,otherwise a random starting position is selected.
-1,the system offers the user the possibility of select an artificial intelligence for each player of the game.
-1,if the user accepts the uc is executed.
-1,if not human player is selected for the first player and the random artificial intelligence is selected for the second.
-1,the system loads the selected game.
-1,the user starts a new game.
-1,the system displays a list with the opening position available and the random opening position.
-1,the game user selects one of them.
-1,the new opening position is selected as current opening position.
-1,the system offers the game user to select between a human player or an artificial intelligence.
-1,if the user selects artificial intelligence the uc is executed.
-1,if not human is selected as nature of the player.
-1,the user wants to change the nature of the players in the current game with a menu.
-1,the system shows a list of all the players that can support the substitution.
-1,one of the players is selected.
-1,the ai developer designs a new ai for a game.
-1,the ai developer installs the ai in the system as described in the manual.
-1,the user starts a new game.
-1,the system loads the new ai from the implemented file.
-1,the user defines a new game in a file.
-1,the file is placed within the system to be used.
-1,the system loads the new game from the file.
-1,one player makes a move that carries out the ending condition or is the last possible.
-1,the system reports the user about the end of the game.
-1,the game user can not play the game anymore.
-1,the user selects the save option from the menu.
-1,the system opens a dialog window where the user can specify the game s name and the location where it can be saved to.
-1,the user makes the necessary choices.
-1,the system saves the game in a file.
-1,the user selects the load option from the menu.
-1,the system opens a dialog window for the user to choose a file to load.
-1,the user makes the necessary choices.
-1,the system loads the game from the file.
-1,the user wants to search the help file for a solution or a hint.
-1,the system displays the contents of the help file and the user chooses the appropriate one.
-1,transaction user interface give the buy instruction.
-1,central trading system save the buy instruction.
-1,central trading system match the instructions with the same stock id.
-1,central trading system make a trade by matching.
-1,central trading system modify the information of matched instructions.
-1,transaction user interface give the sell instruction.
-1,central trading system save the sell instruction.
-1,central trading system match the instructions with the same stock id.
-1,central trading system make a trade by matching.
-1,central trading system modify the information of matched instructions.
-1,all the operations have been suspended.
-1,some deal exceptions come up.
-1,no matched stock with the buy instruction.
-1,transaction user interface give the cancel instruction.
-1,central trading system save the cancel instruction.
-1,central trading system cancel the correlative instruction.
-1,central trading system give out the successful trade information.
-1,security account management save the trade information.
-1,trading information release system send a query.
-1,central trading system implement the query.
-1,central trading system structuralize the queried data.
-1,central trading system send the data to release.
-1,each cdn web server publishes resource and service information.
-1,if it is a new resource its service information is registered in the sr with a new resource id.
-1,resource id counter is incremented.
-1,else resource information in sr is updated in a regular basis.
-1,in the face of traffic surges information on available local resources along with their ids is supplied to the mediator.
-1,local and delegated external resource information is encapsulated in the sr instance in the established peering arrangement.
-1,end users request for content from cdn wss.
-1,flash crowds occurred due to a sudden burst in traffic.
-1,hotspot is generated and provider is unable to handle excess load on its wss.
-1,ws sends initialization request to the mediator to trigger peering.
-1,an initialization request to activate peering is received by the mediator.
-1,the mediator instance obtains resource and access information from the sr and policy information from pr to establish negotiation.
-1,the mediator generates service requirements.
-1,if the service requirements are acceptable according to the provider s policy mediator passes it to the local pa.
-1,else reject user requests.
-1,once a peering arrangement is established the initiating primary cdn through its local pa advertise configuration information to technically support the negotiated relationships between enlisted cdns.
-1,pas exchange content availability and load information to identify an optimal peer to handle user requests.
-1,request is redirected to an optimal peer s web server.
-1,pas exchange accounting information to perform billing based on negotiated relationships.
-1,the policy repository instance in the established peering arrangement assists in the deployment administration and enforcement of the functional policies.
+1,customer clicks button or link to initiate logout process.
+1,system terminates the session cookie.
+1,system displays home page.
+1,customer clicks the button or link to add to the cart with specified quantity.
+1,system adds the item s to the cart.
+1,system prompt customer to edit quantity or remove item from cart.
+1,customer confirms items in cart.
+1,system stores cookie with cart details.
+1,customer returns to product listings.
+1,customer terminates the web browser window after adding item s to cart.
+1,customer returns to weborder interface.
+1,system recognizes cookie and goes to step basic scenario with existing items in cart.
+1,customer clicks the button or link to initiate the checkout process.
+1,system calculates order of items in the shopping cart.
+1,system appends cookie with flag for checkout process.
+1,system presents customer with account details and payment methods.
+1,customer confirms account details and payment methods.
+1,system stores order confirmation and order details.
+1,system sends email confirmation to the customer.
+1,system appends cookie with flag for completed checkout process.
+1,customer terminates order web browser during order the checkout process.
+1,customer returns to weborder interface.
+1,system recognizes cookie and goes to step basic scenario.
+1,user selects the option to parse a transformation language program from currently open application alt.
+1,user selects a transformation language program file.
+1,tlp to parse refer to use case alt.
+1,the hats gui compares the time stamps on the lexical specification and grammar files to the time stamp on the application s parser file.
+1,the parser file is the youngest of the three files alt alt.
+1,the hats gui sends a message to the host os to start either the parsetarget or the parseprogram program and sends the names of the target file or program file the output file and the parser file to the host os.
+1,hats sml parses the input file alt and writes the output to the output file.
+1,end of use case.
+1,the user selects the option to parse a target file instead of a transformation language program.
+1,the user selects a target file to parse refer to use case alt.
+1,use case continues with step.
+1,user selects the option to execute a transformation language program from the currently selected application.
+1,user selects a transformation language program file refer to use case alt.
+1,the hats gui compares the time stamp on the lexical specification and grammar files to the time stamp on the parser file.
+1,the parser file is younger alt alt.
+1,the hats gui compares the time stamp of the parsed program file and the parser the transformation language program and the user defined library files.
+1,the parsed program file is younger than any of these files alt alt.
+1,the hats gui clears the displays for the standard error and standard output.
+1,the hats gui sends a message to the host os to start the applytransformations program and sends the names of the parsed program file and the user defined library file to the host os.
+1,the hats gui redirects the standard error and standard output streams of the applytransformation process and collects data written to these streams for later display.
+1,the hats sml applytransformation program writes output sdts to files named in the transformation language program.
+1,the transformation language program contains all references to input and output files.
+1,the hats gui does not handle file input and file output for applytransformaion.
+1,host os returns list of files within current directory.
+1,system displays list of existing applications within current directory alt alt.
+1,user selects an application within the list alt.
+1,system sets selected application as the current application.
+1,user chooses to move up or down a directory level.
+1,user selects a subdirectory or the parent directory.
+1,system changes current directory.
+1,use case continues with step.
+1,system requests from host os a list of files in the current directory.
+1,host os only returns list of files in the current directory.
+1,system displays this list of files alt alt.
+1,user selects a file within the list alt alt.
+1,system sets selected file as the current file.
+1,end of use case.
+1,user chooses to move up or down a directory level.
+1,user selects a subdirectory or the parent directory.
+1,system changes current directory.
+1,user cancels operation a.
+1,user selects cancel option.
+1,system cancels the operation.
+1,end of use case.
+1,changes to currently selected application have not been saved.
+1,system asks user to confirm save application.
+1,user chooses to save application alt.
+1,system saves the changes made to the application configuration before closing scenario.
+1,end of use case.
+1,user chooses not to save application.
+1,system closes the application without saving the changes made to the application.
+1,end of use case.
+1,system asks for confirmation from user to close application.
+1,user confirms to close application alt.
+1,system checks that the changes to currently selected application s configuration have been saved alt.
+1,system sets currently selected application to none.
+1,end of use case.
+1,user selects option to save currently selected application.
+1,system requests host os to save configuration file for the selected application.
+1,host os saves the configuration file for the selected application into a non volatile storage alt.
+1,system informs user that application has been saved.
+1,end of use case.
+1,user selects to save a currently open application using a different directory name.
+1,system requests user for a name to save the open application.
+1,user enters or selects a name for the application to be saved alt.
+1,system confirms that application name is unique alt.
+1,system requests host os to create new directory with the given name.
+1,host os creates new application with the entered name alt.
+1,system requests host os to copy core files configuration files and.
+1,tlp files to the new directory.
+1,host os copies all files from selected application to created application alt.
+1,system informs user that application has been saved with entered name.
+1,end of use case.
+1,user selects file to edit use case.
+1,system checks application to determine if editor is associated with this file.
+1,an editor is associated with the file if the configuration explicitly associates this file with an editor or an editor is associated with files of this type.
+1,an editor is associated with this file alt.
+1,the hats gui sends message to host os to start the preferred editor in new process and passes file name to editor.
+1,host os initiates process puts editor in process sends the filename as argument.
+1,end of use case.
+1,no editor is associated with this file.
+1,the hats gui prompts the user to select a configured editor.
+1,the user selects a configured editor.
+1,the hats gui prompts the user to associate the editor with the file or the file type.
+1,the user selects associating the editor with the file type alt alt.
+1,the hats gui associates the editor with the file type by updating the application configuration.
+1,the selected editor becomes the preferred editor.
+1,use case continues with step.
+1,user selects option to create a new application.
+1,close existing application if one is selected refer to use case scenario.
+1,system asks user to enter a name and location for new application.
+1,user enters name and location for new application alt.
+1,system requests host os to create new application.
+1,host os creates new application alt.
+1,system informs user that new application has been created.
+1,end of use case.
+1,user selects to cancel operation.
+1,no application is created.
+1,end of use case.
+1,an application with the same name already exists.
+1,system presents error message application already exists.
+1,end of use case.
+1,user selects option to configure editors.
+1,the system prompts for editor name and configuration information.
+1,editor configuration information must be sufficient to start the editor on the host os.
+1,user enters editor name and parameters alt.
+1,system saves editor configuration in application configuration.
+1,system displays a list containing types of displayed nodes and their corresponding current configured colors.
+1,the types of displayed nodes are given in table.
+1,user selects a type of node from list.
+1,system displays a list of supported colors and shapes.
+1,user selects a color and a shape from the list for the selected type of displayed node alt.
+1,system sets the selected values as the color and shape for the type of displayed node selected.
+1,end of use case.
+1,user selects option to configure the default number of levels to expand in response to a single mouse click.
+1,system asks user to select or enter a number of levels to expand.
+1,user enters or selects a number of levels to expand.
+1,number entered is a natural number.
+1,system sets the entered or selected number of levels as the default number of levels to expand.
+1,end of use case.
+1,user selects option to associate file types with editors alt.
+1,system displays a list of configured editors.
+1,refer to use case.
+1,system displays a list of file types.
+1,user selects a file type from list alt.
+1,user selects an editor from list alt.
+1,system associates the selected file type with the selected editor.
+1,when the user tries to edit a file of the type selected the system will request the host os to initiate a process with the associated editor.
+1,refer to use case.
+1,end of use case.
+1,user selects option to view and manipulate a graphical representation of an sdt.
+1,user selects sdt to view and manipulate refer to use case.
+1,system displays a graphical representation of the selected sdt in an on screen work area.
+1,the work area of the sdt display contains the following elements.
+1,a a window that displays the displayed graph representation of the sdt.
+1,b a text window that displays the labels of the leaf nodes in the currently displayed graph.
+1,c if either window is too small to contain all the information to be presented the windows will have scroll bars to facilitate scrolling.
+1,the system will respond to dragging of scroll buttons or pressing arrow keys by shifting the display in the appropriate direction.
+1,d if the sdt is too large for the window a separate small window with a compressed view of the sdt will be displayed.
+1,in this window a displayed graph of the entire sdt will be drawn.
+1,the nodes of this displayed graph will be smaller than the displayed nodes in the sdt display work area.
+1,it is not necessary that the user be able to read node labels.
+1,it is only necessary that the user be able to see the high level structure of the sdt.
+1,a small box named the locator box will be displayed showing the part of the sdt currently displayed in the main sdt display window.
+1,user is able to manipulate the displayed graph representation of the sdt.
+1,see the remaining scenarios.
+1,user selects one or more displayed nodes.
+1,displayed node selection methods are described here.
+1,a single node can be selected by a right mouse click on the node.
+1,a single node can be selected via the keyboard by moving the keyboard cursor to a node and pressing the enter key.
+1,the keyboard cursor is moved between nodes using the tab key.
+1,several nodes can be selected by drawing a mouse box around the desired nodes.
+1,several nodes can be selected by holding the shift key down and selecting individual displayed nodes.
+1,when a user selects a set of nodes using these operations and the shift key is not held down the previously selected set of nodes if any is unselected.
+1,system highlights the smallest well formed tree of the selected nodes in the displayed graph.
+1,system finds corresponding portion of leaf text of the selected nodes in the displayed graph.
+1,system highlights the corresponding portion of leaf text.
+1,if both sdt and pretty printed text are displayed the system will find the corresponding pretty printed text and highlight that text in the pretty print text window.
+1,end of use case.
+1,the user clicks the mouse in the navigation window sdt display.
+1,the system determines the node in the displayed graph closest to the mouse cursor and redraws the displayed graph with this node in the center of the main display.
+1,the system updates the locator box in the navigation window display.
+1,end of use case.
+1,user points the mouse cursor at a node and clicks the left mouse button alt.
+1,system displays the tree by expanding descendants of the node in the displayed graph.
+1,the number of levels to expand is given by the application configuration.
+1,if fewer than this number of levels exist then all descendants of the chosen node are displayed.
+1,system changes the shape and color of selected node as specified in the application configuration to indicate that it has become an expanded node.
+1,end of use case.
+1,user selects to expand selected nodes.
+1,user selects a set of nodes refer to scenario.
+1,user selects to expand selected nodes.
+1,use case continues with step.
+1,user points the mouse cursor at a node and clicks the left mouse button.
+1,system removes all descendants of the selected node from the displayed graph.
+1,system changes the shape and color of selected node as specified in the application configuration to indicate that it has become a collapsed node.
+1,user selects one or more displayed nodes.
+1,refer to use case.
+1,user selects option to hide selected displayed nodes.
+1,system removes the selected nodes from the displayed graph.
+1,system changes the types of the displayed nodes remaining on the screen to indicate that there are hidden nodes in the displayed graph.
+1,end of use case.
+1,user selects option to search sdt for a desired sub tree.
+1,system asks user for the criteria to search nodes.
+1,search criteria for sdts are presented in appendix e.
+1,user enters search criteria.
+1,system finds the first matching sub tree in the sdt starting at the current keyboard cursor location alt.
+1,system creates a displayed graph for the sub tree matching the search criteria.
+1,the displayed nodes of the matching sub tree are highlighted.
+1,if no nodes match the search criteria none are highlighted.
+1,if both sdt and pretty printed text are displayed the pretty printed text corresponding to the highlighted nodes of the sdt is highlighted.
+1,system displays text of leaf nodes in currently displayed graph in a text window.
+1,user selects a portion of displayed text.
+1,system highlights selected portion of text in the text window.
+1,user selects option to copy selected text.
+1,minimally the system will copy selected text in response to the ctrl insert key combination.
+1,system puts the selected and copied text in the host os copy paste buffer.
+1,the user selects the option to refresh the display of the sdt.
+1,the system disposes of the currently displayed sdt.
+1,the system reads the sdt file and displays the newly generated sdt.
+1,the display of the sdt contains approximately the same number of nodes as the previously displayed sdt.
+1,user selects option to view and manipulate a pretty printed text from a particular successful transformation.
+1,user selects pretty printed text to view and manipulate.
+1,refer to use case.
+1,system displays the pretty printed text in a work window.
+1,a the work area of the display of pretty printed text contains a text window that displays the text.
+1,b if the window is too small to contain all the information to be presented the windows will have scroll bars to facilitate scrolling.
+1,the system will respond to dragging of scroll buttons or pressing arrow keys by shifting the display in the appropriate direction.
+1,user is able to manipulate the pretty printed text.
+1,see the remainder of the scenarios.
+1,end of use case.
+1,user selects a portion of the displayed pretty printed text.
+1,text selection methods are described here.
+1,text can be selected by clicking and dragging the mouse across an area of text.
+1,text can be selected by holding the shift key and moving the keyboard cursor using the arrow keys.
+1,when a user selects text using these operations the previously selected text if any is unselected.
+1,system highlights selected portion of the displayed pretty printed text.
+1,user selects option to search pretty printed text for desired text.
+1,system asks user for the criteria to search text.
+1,text search criteria are given in appendix f.
+1,user enters or selects criteria to search text.
+1,system finds those portions of pretty printed text that match the search criteria and highlights those portions of the text that match alt.
+1,if both the pretty printed text and the graphical representation of an sdt are displayed the system finds the corresponding nodes of the sdt of the selected portion of pretty printed text and highlights the corresponding nodes of the sdt.
+1,user selects a target sdt refer to use case alt.
+1,no pretty print style file is associated with the target file.
+1,the hats gui prompts the user to select a pretty print style file.
+1,user selects a pretty print style file refer to use case alt.
+1,hats gui generates a file name by appending.
+1,txt to the target sdt root name.
+1,the hats gui verifies that no file with this name exists in the current directory.
+1,this file becomes the output file name alt.
+1,the hats gui sends a message to the host os to start the pretty print program and sends the target sdt file name the pretty print style file name and the output file name to pretty print as command line arguments.
+1,hats sml applies the style file to the target sdt and writes the output to the output file specified on the command line alt.
+1,message is encrypted or message is not encrypted.
+1,an agent sends notify to join leave multicast group.
+1,message is decrypted only if message is encrypted.
+1,message is encrypted or message is not encrypted.
+1,an agent sends unicast message to another agent.
+1,another agent receives message.
+1,message is decrypted only if message is encrypted.
+1,message is encrypted or message is not encrypted.
+1,an agent sends multicast message to the group multicast address.
+1,other agents in the group receive message.
+1,message is decrypted only if message is encrypted.
+1,an agent sends message to everyone in the same local network.
+1,other agent in the same local network receive message tachonet deciphers the received request and logs the received request as is in its tracking database.
+1,tachonet validates its syntax and assigns it a tachonet refid tcnrefid.
+1,tachonet deciphers the received request and logs the received request as is in its tracking database.
+1,tachonet validates its syntax and assigns it a tachonet refid tcnrefid.
+1,tachonet will build as many new requests as issuing member state codes identified in the original request.
+1,tachonet figures out the target issuing member state s from the issuing member state code given for each to be checked card.
+1,every new request only contains card number s issued by a particular member state.
+1,for each identified issuing member state s tachonet builds logs and encrypts the new request sends it to it and waits for receiving the response.
+1,for each received response tachonet deciphers it logs it as is in its tracking database and validates its syntax.
+1,if it s valid tachonet stores the response message linked to the tcnrefid in the database for later building the single consolidated response that tachonet will send when all responses are received or when the timeout is reached.
+1,when all responses are received or when the timeout is reached tachonet builds logs and encrypts the consolidated response from the responses received so far and sends it to the original caller.
+1,tachonet deciphers the received request and logs the received request as is in its tracking database.
+1,tachonet validates its syntax and assigns it a tachonet refid tcnrefid.
+1,tachonet will build as many new requests as issuing member state codes identified in the original request e.
+1,if more than one card driving license number is given in the request.
+1,tachonet figures out the issuing member state code s based on the driving license issuing nation and not the card issuing member state code given for each sub request.
+1,every new request only contains card and driving license number s issued by a particular member state.
+1,for each identified issuing member state s tachonet builds logs and encrypts the new request sends it to the member state and waits for receiving the response.
+1,for each received response tachonet deciphers it logs it as is in its tracking database and validates its syntax.
+1,if it s valid tachonet stores the response message linked to the tcnrefid in the database for later building the single consolidated response that tachonet will send when all responses are received or when the timeout is reached.
+1,when all responses are received or when the timeout is reached tachonet builds logs and encrypts the consolidated response from the responses received so far and sends it to the original caller.
+1,the cia calls the tachonet service giving the driver s surname and first names.
+1,tachonet checks the input parameters and if valid computes the corresponding surname and first of the first names search keys.
+1,tachonet returns the computed search keys as output parameters.
+1,the agent executes the job.
+1,tachonet transfer based on its schedule.
+1,tachonet transfer executes the sp.
+1,transferinfo which transfers expired transactions from the production database to the datawarehouse database.
+1,tachonet transfer executes the sp.
+1,processinfo executes the dts.
+1,tachonetdwolap processing which processes cubes in the olap database.
+1,if the login failed the actor calls the tcn administrator to reset his password or to do the adequate operation.
+0,this document specifies the functional requirements for eprocurement interoperability in the uk public sector and covers the information content of messages exchanged between public sector buyers and external sellers through the procurement cycle from catalogue to remittance.
+0,these requirements are not limited to any industry sector.
+0,the approach provides a common language for describing eprocurement documents that is modular and extensible to specialised business contexts.
+0,the messages are specified for implementation as electronic documents exchanged between buyer and seller marked up using extensible markup language xml and validated using xml schema in compliance with the e government interoperability framework e gif.
+0,this specification does not include the xml schema to be used.
+0,no assumptions are made other than good business practice about how the internal systems at the buyer and the seller are designed or work these systems are treated as black boxes.
+0,is sent from the seller to the buyer confirming that the seller owes money to the buyer.
+0,it may be used to rectify errors and or variances in the invoicing process.
+0,credit note is a vat document.
+0,is sent from the buyer to the seller stating that buyer has deducted amounts from a seller s invoice.
+0,a debit note precludes the need for a seller to raise a credit note.
+0,debit note is a vat document.
+0,is sent from the buyer to the seller notifying payment and stating what invoices credit and debit notes have been accounted for.
+0,is sent from the seller to the buyer summarising the status of the buyer s account and the invoices remittances debit and credit notes submitted within a specific time period.
+0,is the uri at which a suitable style sheet may be found for rendering the document for printing or display for human readability.
+0,is an identifier of the particular system that sends the document.
+0,this identifier is optional but is recommended to be sent.
+0,the format may be manufacturer specific but could be a uuid.
+0,is the uri at which a logo can be found for insertion into a rendered document.
+0,is free text note on document.
+0,this is used for non structured header level document information which is intended to be human readable.
+0,is a reference to a framework agreement or contract that governs this transaction.
+0,this information is should be sent if it is known to the sender.
+0,is the method to be used for payment cheque direct debit standing order bacs swift chaps giro promissory note letter of credit cash cash on delivery credit card debit card charge card pre paid.
 0,to achieve an electronic clearing and settlement environment dvp all new instruments will be issued electronically dematerialised immobilised before sale and delivery into the primary market.
 0,as an isin is the key securities code identification and used by strates system safires for settlement purposes and csdps for recording purposes the mmf requires an electronic methodology to create amend and delete isins for electronically dematerialised immobilised issued money market instruments.
 0,the mmf has approved swift iso standards as the communication protocol and strate has recommended that the mt user defined swift messages be used as the format for the messages as detailed in appendix b to k.
@@ -521,659 +730,10 @@ label,text
 0,the mmf requires that the jse provide isins automatically in response to an electronic request swift as the immediacy of the issuance of an isin is essential for the trading and electronic clearing and settlement of money market instruments.
 0,the mmf estimates an issuance requirement of approximately to isins per day.
 0,to distinguish money market instruments isins from equities zae and bonds zag the mmf has requested the use of an isin prefix of zam.
-0,pursuant to the strate unexcor merger as noted above it has been agreed that the swift messages to create amend or delete an isin for money market instruments would be routed via strate and the interaction would therefore be limited from the jses perspective between strate and the jse for the issuance of isins.
-0,often user scenario is considered the same to use case.
-0,they both can help our team understand how system functions and features will be used by different classes of end users actors.
-0,however i prefer to understand it like this a user scenario is a particular environment within a specified use case.
-0,so i will specify user scenarios going along with developing use cases in the next session.
-0,there are mainly two kinds of users.
-0,the cts provides the terminal users easy.
-0,operations that are confined to a series of mouse clicks and keyboard which compared to.
-0,other systems are really much simplified.
-0,however for another user things are.
-0,the maintainers of this cts must be familiar with java programming and the socket.
-0,when the system crashes down they can find the cause and fix it.
-0,when new requirements should be supported they can modify the program to make it fit.
-0,as the instruction is frequently operated in cts such as fetch deal with repeal and so on the cts is heavily transferred.
-0,the program must take this into consideration.
-0,the maintainers of cts should have good strategies to overcome crash of the system when overhead exceeds the capacity of it.
-0,in the password column user has to set the password if the document is protected and then reload the file.
-0,the user can change the order of the files by using move up and move down buttons or make the list be ordered by the value of a specific column by clicking the header of that column.
-0,the user has the ability to export the list of the selected files as an xml file that can be used as an input file for the console concat command l option.
-0,if the pdf documents contain forms the user must add that to the merge options.
-0,finally the user selects the output file path or let the pdfsam create one by default to the same folder as one of the imported files.
-0,also he can select whether he wants the output file to be compressed or not and the pdf version of the generated document.
-0,the user presses the run button to start the merging of the files.
-0,the digital home system for the purposes of this document is a system that will.
-0,allow a home user to manage devices that control the environment of a home.
-0,the user communicates through a personal web page on the digitalhome web server or on a local home server.
-0,the dh web server communicates through a home wireless gateway device with the sensor and controller devices in the home.
-0,the product is based on the digital home high level requirements definition hlrd is intended as a prototype which will allow business decisions to.
-0,be made about future development of a commercial product.
-0,the scope of the project will be limited to the management of devices which control temperature.
-0,humidity security and power to small appliances and lighting units through the.
-0,use of a web ready device.
-0,the prototype dh software system will be situated in.
-0,there will be no actual physical home and all sensors and controllers will be simulated.
-0,this document specifies the requirements for the development of a smarthouse called digitalhome dh by the digitalhomeowner division of homeowner inc.
-0,a smart house is a home management system that allows home residents to easily manage their daily lives by providing for a lifestyle that.
-0,brings together security environmental and energy management temperature.
-0,humidity and lighting entertainment and communications.
-0,components consist of household devices e.
-0,a heating and air conditioning.
-0,unit a security system and small appliances and lighting units etc.
-0,and controllers for the devices communication links between the components.
-0,and a computer system which will manage the components.
-0,the digitalhome software requirements specification srs is based on the.
-0,digitalhome customer need statement.
-0,it is made up of a list of the principal.
-0,features of the system.
-0,this initial version of digitalhome will be a limited.
-0,prototype version which will be used by homeowner management to make.
-0,business decisions about the future commercial development of.
-0,digitalhomeowner products and services.
-0,hence the srs is not intended as a.
-0,comprehensive or complete specification of digitalhome requirements.
-0,a supplementary document that provides additional detail and information about.
-0,the digitalhome requirements the digital home use case model ho.
-0,these document were prepared by the digitalhomeowner division in.
-0,consultation with the marketing division of homeowner inc.
-0,the category name must be unique across the inventory.
-0,the category s unique tag must be unique across the inventory.
-0,the unique tag must be at most characters long.
-0,the available options in the material finish color and features selectors should be the ones defined for the selected department see manage attributes and details.
-0,the fields and available options under the details section should be the ones defined for the selected category see manage attributes and details.
-0,when a stock item category is updated the corresponding item is updated in quickbooks pos.
-0,the id of the item in pos is set to the category s unique tag.
-0,the initial item quantity in pos is set to zero.
-0,generic categories and under item categories are generated automatically by the system and cannot be modified.
-0,the categories to move selector is populated with the categories seen on the matrix at the level where the move categories button was pressed.
-0,user must select at least one category to move.
-0,user must select either an existing or new target department or category.
-0,user cannot move categories to any departments or categories that don t have enough slots available in the matrix to hold the moved categories.
-0,user cannot move categories to any of their subcategories cannot create loops in the inventory hierarchy.
-0,if a new target category is selected.
-0,parent department or category of the new category.
-0,the category is created as a unique item category.
-0,user cannot select a stock item under category or generic category as the target category.
-0,when a category is moved it keeps its assigned item details.
-0,when the option to merge the contents of the selected categories is selected the item details assigned to the selected categories are combined and assigned to the target department or category.
-0,when the option to merge the contents of the selected categories is selected the moved items must be updated in quickbooks pos.
-0,name of construction junction representative.
-0,signature of construction junction representative.
-0,construction junction contact information.
-0,tax deduction information text.
-0,buttons and shortcuts should be easy to click on a touch screen workstation.
-0,extra spacing between rows should be added if necessary.
-0,the donation item name initially displayed on each item row is the donation item name in the crm acquisition record.
-0,the pickup and decon crews can change anything on this screen and also in the item detail screen but can t complete the acquisition or add items to the inventory buttons are disabled.
-0,the email receipt button takes you to the email receipt screen.
-0,the email receipt screen shows all email addresses associated with the acquisition in crm.
-0,one or more can be selected to receive the email receipt.
-0,if no emails are available they need to be added in crm.
-0,the system must record every time a receipt is printed or emailed.
-0,selecting a stock category takes you back to the acquisition screen not to the items details page.
-0,selecting an under category prompts for a description and also takes you back to the acquisition screen.
-0,if left blank the donor may write it manually on the receipt.
-0,clicking add item takes you directly to the inventory matrix so that the item category can be selected then to the item details screen.
-0,the shop page on cj s website provides a starting concept of what the categorized inventory search might look like as does the website at www.
-0,contact us and online donation form website pages should integrate with salesforce and allow donors to upload images.
-0,the system should also include the implementation of salesforce.
-0,com ideas on cj s recycling resources webpage to allow for crowd sourcing the best recycling options for various materials in the pittsburgh metropolitan area.
-0,the system should also allow construction junction staff to view a list of all items that were included in previous week s e blast and that have been sold.
-0,the user can then select the items that should be included in the great and gone section of the website.
-0,the system should also allow the user to select any sold items adding pictures as needed to be included in the great and gone section even if they were not part of previous week s e blast.
-0,great and gone items should have a sold overlay over their associated images.
-0,developers who can review project s capabilities and more easily understand where their efforts should be targeted to improve or add more features to it design and code the application it sets the guidelines for future development.
-0,project testers can use this document as a base for their testing strategy as some bugs are easier to find using a requirements document.
-0,this way testing becomes more methodically organized.
-0,end users of this application who wish to read about what this project can do.
-0,people of all age groups without much experience because the pdfsam interface is pleasant and user friendly and its functions are relatively simple.
-0,users with more experience on computer systems could use some advanced features offered by pdfsam such as executing its functions in command prompt from the command line application.
-0,a command line console could be useful for batch jobs server jobs e.
-0,to manipulate larger pdf files.
-0,the target clients for our software are students in the sixth grade and their teacher.
-0,students are in the process of learning how to solve arithmetic problems involving fractions.
-0,moreover these students as well as the teacher are assumed to have basic computer and.
-0,internet skills that will enable them to use this software.
-0,an introductory movie to set up the storyline.
-0,a main menu including a brief help section.
-0,a series of fraction questions testing arithmetic equivalence graphical interpretation.
-0,and improper versus proper fraction skills that sequentially form a storyline related to the.
-0,an ending scene where the user s score is calculated and ranked with an option to quit.
-0,the game or try again.
-0,the administrator of the program may wish to design a custom game complete with custom.
-0,this information must be saved in a file on the web server where the game.
-0,is hosted and will be easily edited through simplified administrative screens.
-0,must be kept as local data within the game so that the results may be given at the end of the.
-0,input will consist entirely of mouse clicks for the user to choose answer options and to.
-0,output will be sounds and animations through flash movies to acknowledge.
-0,success or failure in answering the fraction questions.
-0,upon starting the program the user is taken through a brief introductory movie to provide.
-0,background story and information that will help them complete the fraction questions.
-0,an option to skip the introduction if desired.
-0,otherwise they will watch the movie to its.
-0,completion and be taken to the main screen.
-0,at the main title screen the user will be able to view a general help screen to reveal basic.
-0,instructions on game play.
-0,also a short summary of our team and a link to our website will be.
-0,to start the game the user will click on the corresponding button.
-0,and interface will be effective so that bobby will easily recognize what to do to start the game.
-0,immediately and alice will have no problems navigating through the help section to understand.
-0,the rules and gameplay.
-0,claire will be assured that the students will know what to do from this.
-0,next the user progresses through a series of questions in the form of cartoon images that.
-0,comprise the main story.
-0,these questions will test the user s knowledge of basic fraction.
-0,operations and will be presented as a multiple choice questionnaire.
-0,the user will be given a.
-0,problem and then must click the correct solution.
-0,a friendly robotic sidekick will assist with.
-0,general usability issues and give hints towards the correct response.
-0,bobby will be captivated.
-0,by the storyline and will wish to progress as fast as possible.
-0,the gameplay will be dynamic.
-0,and adaptive to provide different storylines based on the user s progress.
-0,after the last question the main character s adventure will come to an end.
-0,the last scene will.
-0,be determined by the user s response on certain critical questions that impact the story s plot.
-0,and an option to try again will be presented.
-0,in addition the player s exact score will be given.
-0,with a customized message.
-0,this gives bobby the competition he requires and allows alice to.
-0,have a unique experience the next time through the program.
-0,either way the user will be.
-0,encouraged to try again and further better their fraction skills.
-0,the evla correlator backend system will be designed and implemented as a real time data.
-0,the system is expected to be implemented on a distributed memory cluster of.
-0,computers in the system will all be exactly the same and operating systems.
-0,and applications running on them will communicate with one another and the monitor and control.
-0,system over a network.
-0,data input to the system from the correlator and output from it to the.
-0,end to end system will be over very high speed networks.
-0,the networks connecting the internal.
-0,processors the correlator and the e e are part of the be system.
-0,currently only a conceptual.
-0,diagram exists for the system and should be viewed as such see figure.
-0,functions will run on one of the cluster processors with one or more shadow processors standing.
-0,the remaining processors will be running the data processing functions.
-0,input the be system shall be capable of accepting an aggregate data.
-0,input stream from the correlator of a minimum of.
-0,must be done simultaneously with the output stream but not necessarily.
-0,over the same interconnects.
-0,this is an initial deployment specification.
-0,and will be increased over time.
-0,output the be system shall be capable of delivering an output data.
-0,stream to the e e system of a minimum of mbytes sec.
-0,resends and simultaneous transfer of data stored due to a previous e e.
-0,this must be done simultaneously with the output.
-0,stream but not necessarily over the same interconnects.
-0,this is an initial.
-0,deployment specification and will be increased over time.
-0,cpu the total processor capability of the be system shall be.
-0,combination of numbers of processors and individual processor speed.
-0,sufficient to accomplish all processing tasks while avoiding loss or delay.
-0,on the input and output data streams.
-0,memory the be system shall have sufficient amount tbd memory.
-0,with sufficient rate tbd access speeds to accomplish all processing.
-0,tasks while avoiding loss or delay on the input and output data streams.
-0,excess storage the be system shall have sufficient storage memory.
-0,and or disk with sufficient access speeds to meet short duration.
-0,monitor compute performance the be shall monitor the overall data.
-0,compare against tolerances and report all out of tolerance.
-0,monitor compute errors the be shall trap flag and repair inf s nan s.
-0,underflows overflows and other computation errors.
-0,computation error statistics and compare against tolerances.
-0,monitor processes the be shall periodically or upon request check.
-0,pid s and assure that all started tasks are alive and running.
-0,missing stopped defunct and other damaged processes.
-0,monitor processors the be shall periodically or upon request check.
-0,backend physical processors and assure that all needed processors are.
-0,report all crashed stopped or unresponsive.
-0,monitor networks the be shall periodically or upon request check all.
-0,backend internal networks and assure that all communication connections.
-0,are intact and functioning.
-0,report all non functioning components.
-0,start process the be shall be able to initiate a processing task on any.
-0,stop process the be shall be able to signal a kill for any backend.
-0,alter priority the be shall be able to alter the priority of any of the be.
-0,reboot processor the be shall be able to initiate a reboot of any.
-0,backend a physical processor.
-0,reboot network the be shall be able to initiate a reboot of any internal.
-0,offload the be shall be able to redistribute internal workload among its.
-0,this may involve change of destination ip address es for the.
-0,general be processes shall not violate archive data requirements.
-0,processes shall be reversible the raw unconverted input always being.
-0,recoverable from the output.
-0,data construct specifications.
-0,input data queue a memory buffer.
-0,a passive or active device normally mounted in proximity to the track for.
-0,communications with passing trains.
-0,a standard for balises has been devised.
-0,within the eurobalise project.
-0,a call made to all members of a pre defined group within a local geographical.
-0,only the initiator of the call may talk with all other group members.
-0,the radio and associated user and other interfaces installed in the cab of a.
-0,locomotive and for use principally by the locomotive driver.
-0,includes those radios supporting train control.
-0,a member of the train crew with overall responsibility for passenger related.
-0,railway activities on board the train.
-0,the definition of each broadcast or group call area should take into account factors.
-0,such as the speed of trains on the line stopping distance and the operational control.
-0,it is acceptable that mobiles which move out of the call area during the call be dropped.
-0,mobiles configured for reception of railway emergency calls entering into a call area.
-0,where a railway emergency call is ongoing shall automatically join this call.
-0,cab radios configured for reception of a call to all drivers in the same area entering an.
-0,area where a call to all drivers in the same area is ongoing shall automatically join this.
-0,call unless involved in a higher priority call or involved in a call of the same priority.
-0,needs further technical specification changes before field.
-0,implementation can be achieved.
-0,an audible and visual indication shall be provided to the driver that the call is.
-0,when the call is connected to the controller an audible and visual indication is to be.
-0,provided to the driver.
-0,the call shall be connected to the loudspeaker at the pre set.
-0,the functional identity of the connected party if available shall be displayed to the.
-0,if the functional identity of the connected party contains an alphanumeric description.
-0,this shall also be displayed.
-0,if the system is not able to connect the call an audible and visual indication shall be.
-0,provided to the driver that the call was not received by the controller.
-0,indicate if the called party was busy or if the network could not connect the call.
-0,the high integrity software his program at sandia national laboratories developed hats in order to utilize.
-0,transformations are a well known formal method for developing.
-0,the intent of hats is to develop software via high assurance transformations that have been proven.
-0,to preserve the semantics of the transformed programs.
-0,such a system benefits the high assurance software.
-0,community by providing a tool with which to develop software.
-0,the his program has requested the implementation of a platform independent gui to simplify user interaction.
-0,the system shall provide to the user the ability to prepare applications utilize hats to apply.
-0,transformations and display and manipulate the output resulting from execution of transformations.
-0,development of a platform independent gui will give the members of the transformation and research.
-0,community a chance to experiment using hats.
-0,this will increase the use of hats and will provide the his.
-0,program with feedback from the members of the transformation and research communities that will aid in the.
-0,development of this tool.
-0,a prototype of this system has been developed but is inadequate due to its lack of portability and its inability to.
-0,the goal of developing the hats gui is to make the system more user friendly.
-0,make the user interface platform independent and to increase the use of the hats system.
-0,a set of files describing a problem domain and a possibly empty set of.
-0,transformation language programs target files and output files.
-0,an application is a.
-0,stand alone entity and contains all the data sets required to perform and view.
-0,a set of associations and user selected configurations is also part of.
-0,associations relations between files in an application.
-0,for example a file may be mapped to the.
-0,file used to generate this file or a file or program used to edit the file.
-0,child node a node that has a parent node.
-0,the child relationship is the inverse of the parent.
-0,collapse to hide the descendants of a displayed node.
-0,color scheme the selected colors and shapes used to represent different types of displayed nodes in.
-0,a displayed graph of a syntax derivation tree.
-0,configuration the set of characteristics related to an application that controls the behavior of the.
-0,table lists the elements of a configuration.
-0,copy and paste an operation that allows a user to copy text from one process into another process.
-0,typically copy and paste operations transfer data to and from an active process into.
-0,an operating system buffer.
-0,core a set of files consisting of one lexical specification file one grammar file and zero or.
-0,cursor a display element in a graphical user environment that marks a location in a window.
-0,the srs is divided into four major sections introduction general description specific requirements and.
-0,section the general description describes the product its functionality and its structure.
-0,product features which describes from a high level point of view the main features of the software.
-0,user characteristics which identifies the different types of system users and describes their individual.
-0,interaction with the system.
-0,use cases are used to define the user characteristics a description of the.
-0,actors use cases and scenarios are included in this section.
-0,general constraints of the system and.
-0,assumptions and dependencies of the system.
-0,section describes specific requirements.
-0,external interface requirements which describes the requirements for user hardware software and.
-0,behavioral requirements which divides behavioral requirements into the following categories related.
-0,real world objects stimulus related features and functional requirements.
-0,non behavioral requirements which includes performance requirements qualitative requirements.
-0,and design and implementation constraints and.
-0,other requirements which will list all other requirements not included in the previous sections.
-0,hats provides a set of services that execute transformation language programs.
-0,it is written in the language.
-0,ml which has been ported to most common computer platforms.
-0,hats services are invoked by executing ml.
-0,there is one ml program for each function that hats provides.
-0,the collection of programs is.
-0,referred to in this document at hats sml and is described in appendix d.
-0,transformation language programs written in a particular problem domain.
-0,the core of a problem domain.
-0,describes the language over which transformations may occur.
-0,it consists of three elements each of which is.
-0,stored in a separate file a description of tokens in a language a description of a context free grammar for a.
-0,language and a library of user defined functions that evaluate some of the function symbols in the language.
-0,an application consists of a domain rules for transforming input strings to output strings and sets of inputs and.
-0,these rules are applied to a target program.
-0,the result of applying a sequence of transformations to a.
-0,target program may be an sdt a pretty printed text string or both.
-0,the pretty printed text string is generated.
-0,by applying pretty print rules to an sdt.
-0,the pretty print rules are contained in a pretty print style file.
-0,may be any number of pretty print style files target programs transformation language programs or output.
-0,files in a given application.
-0,additionally there may be a parsed version of a transformation language program.
-0,a summary of the files file extensions and names is given in table.
-0,the rlcs will provide access to system status data to external systems through a firewall.
-0,this will be a one way data transfer to a computer outside of the rlcs network and making it.
-0,available there for public use.
-0,the transfer will occur every seconds.
-0,a one way serial data.
-0,transfer will also be provided.
-0,rlcs workstations and controllers will reside on a private network to communicate field device.
-0,the rlcs private network communication media will include fiber cat wiring leased lines.
-0,communications from the tmc to the dcu controllers is through the fcu controller.
-0,in addition wireless connections between the fcu and dcu controllers are not an option due.
-0,to security and interference considerations.
-0,the only memory constraints imposed on the software will depend on constraints associated.
-0,with the intelligent controller selected for the system.
-0,for the controller reference the.
-0,tees document in appendix e.
-0,f higher order language requirements there are no specific high level language requirements.
-0,other than that a high level language be used to develop and maintain the rlcs application for.
-0,more cost effective maintenance efforts.
-0,g reliability requirements the rlcs application must be available hours per day days per.
-0,week days per year.
-0,h criticality of the application the rlcs application is important to the traffic management goals.
-0,of the southern california region.
-0,opening the lanes in the direction of the peak traffic flow to route.
-0,traffic onto the reversible lanes is a critical operation in meeting these goals.
-0,i safety and security considerations the safety of field maintenance staff and the traveling public.
-0,is dependent on the correct functioning of the rlcs application to open and close the facility.
-0,reversible lanes facilities whether operated manually or by a control system present a.
-0,fundamental risk the risk is the possibility of opening an entrance for one direction of travel with.
-0,one or more entrances already open in the opposite direction.
-0,should this type of event actually occur it would be nothing less than catastrophic for the motorists.
-0,involved for the traveling public in general for the system operators and for the agency.
-0,another potential control system risk lies with the barrier gates used at locations and.
-0,should one of these gates be lowered across an otherwise open entrance the results could be.
-0,there are less serious but possibly more common control system risks in closure device sensor.
-0,failures during the opening or closing of an entrance.
-0,in the absence of full system overrides if the system allows or causes an entrance to be opened.
-0,in one direction when an entrance in the opposite direction is open then the system has failed.
-0,a well designed carefully implemented and thoroughly tested control system can reduce the.
-0,chance of such an occurrence due to operator error control system or sensor failure.
-0,in order to achieve this the nature of the risk must be understood and continually kept in mind by.
-0,control system developers and testers.
-0,privacy and security policies for web based systems are often developed as an afterthought.
-0,the implications are significant because the systems requirements policies and functionality are.
-0,often misaligned and or in conflict with each other.
-0,organizations risk customer mistrust based.
-0,upon customer perceptions of conflicting privacy statements.
-0,the identification of high level goals.
-0,is fundamental to requirements analysis specification process.
-0,this can be achieved by asking why.
-0,questions about the operational descriptions of the system available.
-0,goals are important in the.
-0,requirements engineering process because they bring completeness and ease of readability to the.
-0,they also provide rationale for requirements and help detect conflicts.
-0,hand scenarios are used to specify desired behavior of the system and are the means of.
-0,additionally they support trade offs amongst design.
-0,based on the utility of goals and scenarios there is a need to develop a tool which will.
-0,assist analysts in the scenario and goal mining reconciliation and management processes.
-0,aims to maintain a goal and scenario repository for use in continuing analyses of policies and other.
-0,documents from which goals and scenarios can be derived.
-0,the clarus initiative is essentially a plan to create a network of networks.
-0,much like the internet for surface transportation environmental data.
-0,internet is an interconnection of computer networks clarus will be an.
-0,interconnection of environmental weather pavement and water level condition.
-0,each of the weather networks will function.
-0,autonomously they will collect information and disseminate it internally without.
-0,direction or dependence on clarus.
-0,each participating weather network s connection to clarus will add two new.
-0,possible modes of functionality.
-0,first the participants will be able to share.
-0,collected environmental data with clarus.
-0,second participants will be able to.
-0,receive environmental data collected by clarus.
-0,the primary recipients of this.
-0,data will be weather service providers but any clarus participants would be able.
-0,to receive data if they so chose.
-0,this concept of autonomous data sharing is.
-0,comparable to the world wide web layer of the internet where organizations can.
-0,publish information on web pages or browse and download information.
-0,published by other organizations on the web.
-0,ownership of the data is retained by.
-0,the organization that provided the data to clarus and the provider organization.
-0,can restrict the dissemination of the data through data sharing agreements with the.
-0,the clarus system will add a third mode of functionality which might be called.
-0,the clarus system will collect organize and quality check the.
-0,environmental data to be published by the system.
-0,the data will be collected from.
-0,the participants organized by location and type of data and quality flags will be.
-0,when this is done the data will be published to the service providers and.
-0,other participant consumers in clarus.
-0,figure shows the general process as data.
-0,progresses from collection through publication to service providers.
-0,the purpose of this document is to explain the flow and the requirement of voucher management system vmu required by marie stopes international uganda msiu during the various meetings held between msiu and microcare from th of nov to th of nov.
-0,this document is purely based on the functional flow diagram designed by microcare.
-0,the document will explain every small entity of the system including various code generations bar coding and graphical user interface etc.
-0,this document will help the system development team to understand the overall and detailed functions of every small entity in vmu and to design the system that will meet every requirement of the vmu program.
-0,this document will help the testing team to prepare the test cases and will help them to test every module in the system and overall testing of the system so that the testing team will have confidence on the quality of this system.
-0,the vouchers are packed in two with one voucher for the purchaser of the voucher in the following addressed as client and one for the partner of the client.
-0,the voucher may only be bought for personal treatment or for the treatment of the partner.
-0,only one voucher is sold at time.
-0,the option of selling more than one voucher to a person at a time introduces too many sources for fraud.
-0,distributors keep a distribution list documenting distributor voucher number date place of sale and name and place of living of the customer.
-0,the client may honour the voucher at any approved provider of his choice.
-0,the voucher management system vms is designed to atomize the process of voucher management unit vmu to minimize the manual process to maximize the quality of the project to understand the progress and timely out come of the project to take necessary steps by the msiu admin team to plan for the future and to increase the quality of the std voucher service.
-0,the system will also control the existence of fraud in claims and will help the service provider to reach their payments in time without delay.
-0,the other features and details of system will be explained in below sections in the document.
-0,systems supporting om must have the capability to capture data about organizations e.
-0,a local health department a university a professional association involved in an om investigation including organization name location and contact information.
-0,systems supporting om must have the capability to capture data about locations involved in an om investigation including name if applicable type e.
-0,floor building room store street address city state zip code country gps coordinates and other specific details e.
-0,a specific building on a campus a business branch location a local chapter s meeting hall.
-0,systems supporting om must have the capability to capture data about any animals involved in an om investigation including type dog monkey etc age gender owner s name and address color weight and species.
-0,a subject id should also be collected for animals in an om investigation.
-0,it may be a challenge to ensure unambiguous identification because demographic details of an animal are not easily identified therefore animals involved in investigations may need to be tagged.
-0,systems supporting om must have the capability to capture data for any object involved in an om investigation such as a letter invoice food item or any object that cannot be classified as a person organization place or animal.
-0,collected data may include name of the object type physical descriptors address identification number e.
-0,serial number package slip number and relevant dates and times e.
-0,invoice date shipping date packaging date.
-0,systems supporting om must have the capability to capture data about any conveyance involved in an om investigation including type of conveyance route taken e.
-0,flight number etc.
-0,systems supporting om must have the capability to capture data about any public or private gathering of people e.
-0,church social ball game involved in an om investigation including time location nature of the event etc.
-0,systems supporting om must have the capability to capture data about any living things other than persons or animals that are involved in an om investigation including type of living thing and other customizable data collection questions.
-0,systems supporting om must have the capability to capture an entity s travel history to support investigations of entities infected exposed or potentially exposed.
-0,health event data.
-0,when a health event is investigated it must be assigned an event identifier i.
-0,event id that is unique within the jurisdiction.
-0,haystack is a tool designed to let every individual manage all of their information in the way that makes the most sense to them www.
-0,sharing the idea of a centralized store for all types of information with znix project haystack provides a tool an extendable browser for accessing the managed information.
-0,this tool is however a standalone application with little support for rd party applications.
-0,although it does provide means for developers build additional unless the project is adopted as a global standard there would be little incentive for the development of especially commercial extensions.
-0,znix includes both an api and a proxy mechanism.
-0,the api would enable developers to build applications that utilize the full potential of the framework.
-0,the proxy mechanism would enable many established rd party applications to interact with the framework.
-0,provide a centralized archive for user s information.
-0,provide hierarchical model for managing the archived information.
-0,hierarchies maybe inheritance based association based or based on any other type of relationship conceived by the user.
-0,allow the user to add remove modify or back up to removable storage devices arbitrary pieces of information without disrupting the hierarchy.
-0,assist the user in building up his information hierarchy by automating such tasks as data capturing and categorizing.
-0,provide a simple api for developing znix aware client applications.
-0,the system design may assume that all interfaces designed for the rd party software listed in table.
-0,a will be compatible with their subsequent releases.
-0,thus for instance when the system is found to be compatible to windows professional service pack it may be assumed to be windows professional compliant regardless whether other service releases would break the system.
-0,a strategy is laid out in the michigan department of transportation vehicle infrastructure integration strategic and business plan that focuses on partnering developing and deploying a vii infrastructure and test beds increasing safety and mobility improving asset management developing outreach programs to better expose others to vii in michigan justifying the need for vii and determining creative investment funding venues for vii activities.
-0,within this context the duap project will investigate and evaluate the utility of vii data and its integration with other transportation agency sources in enhancing safety increasing mobility and improving asset management.
-0,tasks within duap will identify uses for the vii data develop algorithms to use and process the vii data develop prototype applications and data management software and evaluate the utility of the processed data for mdot and its partners.
-0,data processing will require acquisition from a variety of sources standardization and integration storage synthesis for particular applications and dissemination.
-0,the duap system itself will be a prototype completely functional for the desired demonstrations but not necessarily intended for operational use.
-0,when describing a system there are many ways to represent what the system will do and how it will be implemented.
-0,each representation has its own strengths and limitations but all are intended to create understanding of the system s boundaries components and interactions.
-0,each representation has its own set of basic units and interactions.
-0,one or more of these representations taken together describe the system architecture.
-0,systems similar to the duap system are frequently and effectively represented as sets of interacting services.
-0,each service has one or more interfaces by which the services interact.
-0,this representation is a very natural way of approaching a potentially complex system with a basic repeatable model.
-0,a representation based on services and interfaces inherently leads to a flexible scalable and maintainable design.
-0,with well defined interfaces it is possible to improve the functions of the system by adding services that conform to the interfaces but provide new operations.
-0,services do not unnecessarily constrain the physical and computational hardware to which they might be deployed.
-0,it is possible to scale the system by adding hardware to support the processing needs of new services as they are developed and deployed.
-0,maintainability can be preserved by being able to update both hardware and software components while the system is running.
-0,a user should be able to register a new account.
-0,a user should be able to log in.
-0,a member should be able to log out.
-0,a member should have a pro.
-0,a member should be able to modify their pro.
-0,a user s email should be veri.
-0,ed when registering a new account.
-0,an admin should be able to modify accounts.
-0,an admin should be able to suspend accounts.
-0,an admin should be able to delete accounts.
-0,a member should be able to monitor trending topics regarding their campaign.
-0,a member should be able to monitor facebook groups related to campaigns.
-0,a member should be able to view replies to tweets related to their campaigns.
-0,a member should be able to see responses to blog posts related to the campaign.
-0,an admin should be able to perform user account actions in bulk.
-0,an admin should be able to see all campaigns.
-0,an admin should be able to delete any campaign.
-0,an admin should be able to edit all campaigns.
-0,mashbot campaigns campaigns should allow multiple users to collaborate on a campaign.
-0,mashbot campaigns should support multiple users.
-0,a member should be able to store authentication for supported services.
-0,a member should be able to add additional services to an existing campaign.
-0,a member should be able to delete individual campaign elements.
-0,members should have hierarchical permissions.
-0,a campaign should have work.
-0,a member should be able to unpublish a campaign.
-0,a member should be able to delete a campaign.
-0,a member should be able to schedule events in bulk.
-0,a member should be able to schedule live dates for individual events.
-0,a member should be able to delete existing content from supported services.
-0,a member should be able to see the content they have published in all supported services.
-0,a member should be able to push to facebook in a campaign.
-0,a member should be able to post to a blog in a campaign.
-0,a member should be able to post to twitter in a campaign.
-0,a member should be able to create a new campaign.
-0,a member should get noti.
-0,ed when activity occurs in a campaign they re working on.
-0,elss must retain all logbook reports and any corrections on the system at least until the end of each trip i.
-0,submission of the electronic landing declaration or of a transhipment report.
-0,any elss software updates must not impact upon the elss s ability to meet the requirements set out in this.
-0,document and other test documentation.
-0,if it does then the product must be submitted for re approval and can not.
-0,be deployed by fishing vessels until this is granted and the new version id is published on the ukfa web site lists.
-0,elss security and access controls such that.
-0,o one username password must be provided for the owner of each vessel.
-0,o the owner is then able to set up subsidiary users such as the master of the vessel with their own.
-0,o the username is required to be recorded in each report completed and in each transmission made the.
-0,person who has entered the data is required to sign the electronic logbook data stating that they are.
-0,aware of the responsibilities liabilities they are committing to in completing and or transmitting a.
-0,o each copy of the elss installed must be provided with a unique internal number that is.
-0,automatically entered into each transmission to identify the instance of the elss from which the report.
-0,elss must only be supplied for use at sea and loaded onto an onboard system and is not to be provided for onshore.
-0,use by agents or representatives.
-0,onshore entry is to be made through the ers website or by use of the offline.
-0,submission methods to be promulgated by the uk fisheries administrations e.
-0,an emailed spreadsheet csv.
-0,to this end the uk administrations will provide the owner with the means for his agent s to logon.
-0,to the ers website to view the vessel trip record to date and the logbook numbers used to aid their completion of.
-0,the reports they wish to submit from their offices.
-0,the users of the nlm digital repository include both end users such as the general public and nih staff and nlm staff who will be working with and managing the content and repository system.
-0,a crucial feature of a digital repository created and maintained by nlm will be providing the various access levels required by the different types of users.
-0,nih staff may need different access levels to some materials than the general public.
-0,nlm staff and system administrators will require access to the nlm digital repository in order to ingest administer manage preserve and access objects and their supporting information and structures.
-0,this will require multiple levels of access to the materials.
-0,in addition a primary goal of the nlm repository is to provide access to the material as an active regularly used archive as opposed to a dark archive accessible only under certain exceptions.
-0,existing digital repositories for selected portions of the nlm collection e.
-0,pmc bookshelf nih videocasts.
-0,lack of standards for file types e.
-0,materials found in nlm s special collections may require special consideration concerning the type of formats and data files that must be stored within the repository.
-0,important donations of historical materials may include obsolete or unusual formats.
-0,bibliographic data will be supplied by nlm s integrated library system ils.
-0,the repository should provide an interface to this data.
-0,digital material held in the nlm digital repository will be a vital asset for nlm staff and the world.
-0,it is therefore important that a suitable set of security controls and procedures is achieved.
-0,nlm follows the hhs nih security standards.
-0,the library will follow the hhs nih occs security policies for the nlm digital repository.
-0,the security framework must address functioning with the nih off site remote backup facility nccs in both back up and parallel mode.
-0,the nlm collection development policy defines the scope of the nlm digital repository.
-0,a primary goal of the conversion of content for the repository is the preservation of the content.
-0,priority will be given to preserving the intellectual content.
-0,the preservation of the original look and feel of the original source will be considered and reviewed on a case by case basis.
-0,nlm originals will be kept in the collection after digitization.
-0,nlm will not provide or maintain special software required to access materials in the nlm digital repository e.
-0,for audiovisuals or computer applications.
-0,the nlm digital repository will contain materials digitized by nlm and born digital materials created or acquired by nlm.
-0,nlm will undertake a distributed custodial model for some digital materials.
-0,not all digital objects will be stored in the nlm digital repository but the metadata for those objects will be stored in an nlm managed system such as the integrated library system ils.
-0,at a minimum the original normalized object the most recent migrated version and the next to the last migrated version will be kept.
-0,other intermediary versions may be discarded and in some cases all versions may need to be retained.
-0,all digital objects must have an nlm unique internal identifier uid.
-0,the system design and architecture should minimize duplicate data entry of any metadata for objects in the nlm digital repository.
-0,master images and descriptive structural administrative metadata that meet nlm s specifications are created for all digital content that is produced from nlm analog collections and intended for permanent retention.
-0,the nlm digital repository will contain objects of varying levels of permanence including ones that will not be permanently retained.
-0,nlm will assign permanence ratings to objects stored in the nlm digital repository.
-0,the repository must support the use of multiple languages and non roman scripts for ingest maintenance and access of digital objects and associated metadata.
-0,web harvesting functionality is outside the scope of the digital repository requirements.
-0,nlm expects to use separate software for web harvesting.
-0,harvested data web pages will be stored in the repository.
-0,the nlm digital repository will not be a dark archive.
-0,objects in the repository will be available for use although access to specific objects may be restricted to on site use or for a set period of time due to embargo.
-0,the repository system must follow hhs nih standards concerning software and systems security.
-0,to the extent possible automation should be used for the extraction of descriptive and technical metadata.
-0,this document specifies the requirements for the development of a smart.
-0,house called digitalhome dh by the digitalhomeowner division of.
-0,a smart house is a home management system that allows.
-0,home residents to easily manage their daily lives by providing for a lifestyle that.
-0,brings together security environmental and energy management temperature.
-0,humidity and lighting entertainment and communications.
-0,components consist of household devices e.
-0,a heating and air conditioning.
-0,unit a security system and small appliances and lighting units etc.
-0,and controllers for the devices communication links between the components.
-0,and a computer system which will manage the components.
-0,the digitalhome software requirements specification srs is based on the.
-0,digitalhome customer need statement.
-0,it is made up of a list of the principal.
-0,features of the system.
-0,this initial version of digitalhome will be a limited.
-0,prototype version which will be used by homeowner management to make.
-0,business decisions about the future commercial development of.
-0,digitalhomeowner products and services.
-0,hence the srs is not intended as a.
-0,comprehensive or complete specification of digitalhome requirements.
-0,a supplementary document that provides additional detail and information about.
-0,the digitalhome requirements the digital home use case model ho.
-0,these document were prepared by the digitalhomeowner division in.
-0,consultation with the marketing division of homeowner inc.
-0,the general user shall be able to use the dh system.
-0,capabilities to monitor and control the environment in his her.
-0,the general user is familiar with the layout of his her home and.
-0,the location of sensor and control devices for temperature for.
-0,humidity and for power to small appliances and lighting units.
-0,although the general user is not familiar with the technical.
-0,features of the dh system he she is familiar with the use of a.
-0,web interface and can perform simple web operations logging.
-0,in and logging out browsing web pages and submitting.
-0,information and requests via a web interface.
-0,a master user will be designated who shall be able to change the configuration of the system.
-0,for example a master user shall be able to add a user account or change the default parameter settings.
-0,he she will have the same right as the dh technician described in section.
-0,will provide licensing agencies with an up to date tool for bridge management including data management condition assessment model development needs analysis reporting and interaction with other agency systems.
-0,will be the next generation of the pontis product currently deployed in more than agencies in the u.
-0,this product is intended to replace the existing pontis.
-0,x product line with a next generation software application utilizing state of the art software development technology.
-0,will build on and preserve licensee investments of time and money in pontis.
-0,the next generation of pontis eventually will offer the full functionality of the currently deployed pontis.
-0,the baseline capabilities will be extended to provide licensees the ability to access selected modules from a web browser as well as a dedicated client application depending on the particular bms activity.
-0,a web version of pontis will offer easier application setup administration and implementation and will provide a straightforward migration path for existing pontis.
-0,bridge design rating engineers staff responsible for bridge design and rating who may need information from pontis when making engineering decisions and who may contribute structure design and capacity information to pontis.
-0,highway information analysts staff responsible for collection and maintenance of various data of concern to bridge management such as roadway service levels traffic routing restrictions etc.
-0,highway program planners staff concerned with integration of project plans within highway corridors and in particular to acknowledge review and incorporate bridge project recommendations originating from bridge management or other sources and to provide feedback to bridge management on project accomplishments.
-0,pdfsam consists of a number of plugins which constitute its basic functions and some additional features that make the whole process easier and faster.
-0,all plugins are located in the plugins tree on the left side of the gui interface.
-0,this section describes the functional requirements of the application and the features it provides.
-0,system features are described in detail to help the future extension and testing of the system.
-0,features stated here are already parts of the implemented system so no prioritization is needed.
-0,priority is needed for features to be developed that will be added to this document later.
-0,the system will be developed on oracle i platform.
-0,front end will be vb visual basic.
-0,reports will be crystal reports.
+0,the jse s asd department will be required to develop a programme for the automatic issuance of isins for money market instruments.
+0,this will include a programme to unstring the mt user defined swift messages and string the mt user defined swift messages as detailed in appendix b to k for the request and notification of isins by to strate.
+0,to differentiate between the jses current swift bic codes and ensure correct routing and message identification the jse will apply for a new branch code isn as an extension of their current bic address.
+0,the system will be developed on oracle i platform front end will be vb visual basic reports will be crystal reports system design.
 0,the system will be user friendly with maximum master table structure with all transaction screens to have drop down selection menus to minimize data entry errors.
 0,the main data entry screen on claims entry to have drop drown menu from patient s profile selection to medicine cost to have drop down.
 0,minimize the use of key board for any number entry to have a faster transaction data entry.
@@ -1183,12 +743,534 @@ label,text
 0,this efficiency will have a maximum provision to expand this program beyond the pilot period if the program requirements remain same.
 0,high intrusion controls will be in place in the system and the database.
 0,access level controls various organizational level user setting by including granular model setting.
-0,copyright by microcare ltd.
-0,software requirement specification for vmus voucher management unit system page of.
-0,bar code the system will interface with the bar code reader to interface all transaction details.
-0,voucher number verifications claim form entry and selection of voucher usage.
 0,the purpose of this document is to explain the flow and the requirement of voucher management system vmu required by marie stopes international uganda msiu during the various meetings held between msiu and microcare from th of nov to th of nov.
 0,this document is purely based on the functional flow diagram designed by microcare.
 0,the document will explain every small entity of the system including various code generations bar coding and graphical user interface etc.
 0,this document will help the system development team to understand the overall and detailed functions of every small entity in vmu and to design the system that will meet every requirement of the vmu program.
 0,this document will help the testing team to prepare the test cases and will help them to test every module in the system and overall testing of the system so that the testing team will have confidence on the quality of this system.
+0,past experiences with development aid showed that financing inputs e.
+0,facilities and equipment does not result in the necessary improvement of health outcomes.
+0,thus as a change of paradigm the oba concept finances agreed outputs with pre defined quality rather than pre defined inputs by selling vouchers for std services at subsidised prices to patients.
+0,these vouchers will be refunded to service providers in the private sector medical doctors qualified nurses and midwives government hospitals ngos and faith based organisations.
+0,the major advantages of the oba approach are that it allows to target resources to address selected health problems to target the provision of services to specific parts of the population and to stimulate private market initiative and competition.
+0,the main structures and processes in the std voucher programme are.
+0,the programme is prepared implemented and managed by the voucher management unit vmu.
+0,the vmu establishes a network of approved providers during the pilot phase private ngo fbo providers throughout mbarara district.
+0,the vmu runs a marketing and behavioural change campaign bcc to market and inform about the voucher services and how to use them.
+0,the vmu establishes and runs a distribution system with the purpose to distribute the std vouchers to the sexually active population for which the above mentioned providers are in reach.
+0,the voucher management system vms is designed to atomize the process of voucher management unit vmu to minimize the manual process to maximize the quality of the project to understand the progress and timely out come of the project to take necessary steps by the msiu admin team to plan for the future and to increase the quality of the std voucher service.
+0,the system will also control the existence of fraud in claims and will help the service provider to reach their payments in time without delay.
+0,the other features and details of system will be explained in below sections in the document.
+0,the voucher management system is subdivided into following modules to make the system easy for understanding developing testing and to implement.
+0,the filed office will validate the claim form manually and through system if any of mandatory information is missed or any false information is existing then the field office will reject the claim back to vsp and the system will keep those claim in a quarantine area.
+0,the quarantined forms will be sent back to the vsp for verification if the vsp returns the claim with satisfactory details the claims will be entered on to the system in the following month s batch.
+0,based on the payment terms agreed by vsp the field office will generate bi month or monthly financial and medical report and send it to msiu admin team to arrange the payments for the vsp.
+0,to understand the satisfaction of client the msiu admin team will get client feedback from some of the clients and send those documents to field office to enter those into database.
+0,voucher creation the voucher numbers are system generated and created with unique identification numbers with security protocols in built.
+0,the created unique numbers are then printed out in the form of bar codes which will complement or stuck on the voucher the voucher.
+0,then at every level on the voucher cycle this number is captured on distribution retail sales point of treatment enclosed along with claim forms at the claims processing and finally for the payment.
+0,such tracking records will be utilized for reports as well.
+0,each voucher should have the following properties which will have sub elements to get the batch numbers voucher numbers and the project codes.
+0,project code group batch code batch number voucher number security code.
+0,the address field will capture the geographical location of the distributor such as district sub district county sub county or village town road or street.
+0,all the level of details will have a master table in order to update as per the program requirements.
+0,the system will check the duplicated id for the distributors.
+0,the system can allow the duplicate names of the distributor.
+0,on capture of any duplicate name the system will give a warning message to have the duplicate name or to change the name.
+0,for better reporting purposes it is better to have a differentiating indicator on the name.
+0,system will have a provision to print the distributor master details.
+0,the distributor screen will have a provision to view the sales history of a particular distributor with following summary details.
+0,distributor name as report header and following as the report footer.
+0,the system will check the duplicated id for the salesman and team.
+0,the system can allow the duplicate names of the salesman.
+0,on capture of any duplicate name the system will give a warning message to have the duplicate name or to change the name.
+0,for better reporting purposes it is better to have a differentiating indicator on the name.
+0,the program will take maximum care in this form and table as it become a vital transaction to be captured.
+0,in this module you will see that every capture of data will be validated and checked on saving into the database.
+0,the capture of voucher number clinical information diagnosis details drug and investigation details and the costs are going to provide the program a vital report information.
+0,the system development team will focus its attention in making this module table function efficiently.
+0,for the easy understanding and designing of the system this module is subdivided into following sub modules.
+0,the division of sub module is purely based on the sub level categories of the data information.
+0,the service treatment will happen at the vsp service provider clinic or hospital the attending doctor will fill the claims form.
+0,on completion of the service the patient will provide the voucher according to the visit type and patient type client or partner the voucher will be stuck to the claim form.
+0,the thumb print will also be placed on completion of the service.
+0,the vsp will send the collected claim forms monthly and send it to msiu the system will populate active vsp only on other screen during data entry process but the system will also populate all vsp for report purpose.
+0,activation and in activation of vsp is purely based on the msiu management decision.
+0,but if the system is found more than two fraud entries during the claim process of particular vsp then the system would automatically change the status of that particular vsp as in activate.
+0,activation of that particular vsp is again purely based on msiu management decision.
+0,the vsp master information screen should have a provision to enter the payment terms agreed between msiu and vsp.
+0,the system will capture following master details to fill the payment terms.
+0,this section of the report outlines the functional requirements for pontis.
+0,the specific tasks and activities that the software enables other functions needed to support the software and the data that are required to support these requirements.
+0,the requirements are organized loosely around a set of pontis.
+0,each requirement is numbered for convenience.
+0,please note that the may requirements in version.
+0,of the frs have been moved to section.
+0,waiting room for future review and discussion.
+0,a separate database of requirements presents each of these narrative requirements generally following the volere requirements template specification and may be reviewed in conjunction with this document.
+0,in the pontis.
+0,requirements database requirements that apply only to the thin client or thick client implementations are tagged for clarity.
+0,where appropriate requirements that involve configurable control of program behavior are noted.
+0,for example it may be that a user is not allowed multiple sessions of the application by agency policy hence the requirement has a configuration implication.
+0,the user shall be able to view the data stored in the physical inventory tables through the pontis graphical user interface gui.
+0,the user shall be able to switch between predefined structure lists.
+0,the user shall be able to select structures by structure id district county administrative area geographic group ownership custodianship functional class nhs status on off system inspector bridge group inspection due dates and all or some environment and elements.
+0,the query shall be restricted depending on the user privilege.
+0,the system shall be capable of performing configurable input range checks using the datadict table upon entering data.
+0,the system shall be capable of performing data validation tasks including cross field validation upon saving data.
+0,the system shall allow users to configure data validation rules.
+0,this shall be a privileged operation.
+0,the system shall provide data review wizard for comparing incoming bridge data with existing data.
+0,the errors will be highlighted for easy review.
+0,the system shall guarantee atomic database transactions to ensure maximum data integrity using standard.
+0,net transaction management capabilities.
+0,the system shall maximize multi user concurrency and conflict resolution in the application using standard.
+0,net session and transaction management capabilities.
+0,uc exchange datathe administrator shall be able to create and edit new application roles.
+0,the administrator shall be able to assign users to application roles.
+0,the system shall provide user interface for managing application roles.
+0,the administrator shall be able to assign application permissions to each user roles.
+0,the administrator shall be able to configure the system units of measure in either english or metric mode.
+0,this will be a permanent setting for the application and database.
+0,the system shall be capable of storing the ini file configuration information in the database or workstation registry as appropriate eliminating dependency on ini files for program operation.
+0,the system will accommodate xp directory security and file permissions when storing any configuration or session parameters.
+0,the administrator shall be able to edit the datadict table or its successor s through a gui window.
+0,the administrator shall be able to add and configure pre populated new structure templates.
+0,the administrator shall be able to configure field level security.
+0,the administrator shall be able to configure some fields as mandatory for user input.
+0,the administrator shall be able to configure different levels of permission to control editing of checked out bridges.
+0,the system shall adhere to a.
+0,the system shall adhere to a.
+0,net exception handling standard.
+0,the system shall provide an interface to communicate with an external service or third party software.
+0,a set of standard interfaces will be defined for this capability.
+0,the system shall provide application administrators with a secured tool for overriding bridge project check out status.
+0,the system shall provide application administrators with a secured tool for clearing batch processing tables used by the system for deadlock lockout resolution.
+0,this section presents speed targets for specific system functions.
+0,the apparent speed of many operations will be affected by network latency delays due to transmission of text and images from the pontis application server to the client desktop machine and web browser or for standalone operations.
+0,the times indicated in the table represent user experienced response times.
+0,the target times indicated in the table represent thresholds that is the performance requirement specified here means that the indicated functions will take less than the indicated length of time an average of out of times.
+0,this section outlines the minimal requirements for effectively operating pontis.
+0,the requirements for both thin client and thick client applications are discussed.
+0,specific items are to be determined.
+0,the pontis application server asp.
+0,net software will run on a server located within a presumably secure facility at each agency.
+0,because it is an asp.
+0,net application the end users can vary in location depending on the network accessibility of the server.
+0,the pontis database and any other databases to be accessed from pontis may be co located on the same server machine but at a minimum must be accessible from the pontis application server via standard database communication and connection protocols.
+0,the server machine will run windows server or given technology evolution a descendant target server environment identified in the implementation plan.
+0,the server machine must have all necessary software to run an asp.
+0,this specifically includes but may not be limited to iis the.
+0,net framework and asp.
+0,other web servers appliances and add in technologies may also be necessary depending on the final application design.
+0,back end server stored procedures and server side functions will be supported and may be assumed to be usable in the technical design of pontis.
+0,this will require implementation of the triggers in native dbms procedural code.
+0,this implies that it is very likely that the server side code will vary for each target dbms even if the interfaces remain identical increasing the development and testing effort with the significant benefit of assigning processing to the appropriate application tier s.
+0,will be designed to be used with internet explorer it may work correctly with other browsers but this cannot be guaranteed.
+0,given the predominance of ie in the browser market it does not appear to be necessary to consider support for other browsers although this may need to be reconsidered if external customers are running the application s and need to employ different browser technology such as netscape or mozilla firefox.
+0,standalone capabilities will require a workstation running the latest.
+0,net framework presumably windows xp professional sp or its successor.
+0,some capabilities may require a network connection.
+0,the workstation s hardware requirements will be similar to those of the existing pontis.
+0,as there are no evident cultural or political application requirements for pontis.
+0,this section of the functional requirements document does not apply for the most part.
+0,however the product likely will be designed for agency international localization from the ground up with respect to user interface elements reports messages and other application attributes where native language support is necessary.
+0,in order to develop an approximation of the total effort involved and create the development plan necessary for project planning three implementation alternatives have been identified for consideration by the bridgeware task force.
+0,these alternatives are quite different from each other particularly in terms of schedule and user impacts.
+0,the alternatives are specified in terms of effort schedule and deliverables.
+0,development effort is estimated as outlined in section.
+0,the estimating approach provides a standardized mechanism for estimating the complexity of the effort involved in providing a component of pontis.
+0,which can be transformed into development hours or cost.
+0,based on the estimate of development effort three alternative development approaches have been prepared.
+0,the schedules for pontis.
+0,are intrinsically linked to the product s revenue cycles which are directly related to subscribership.
+0,hence the schedules shown for the alternatives reflect available monies and assume no solicitation effort will be undertaken.
+0,when the client serve get a trading instruction it will send the instruction to the cts to trade with other trading instructions.
+0,the process of the trading includes the following two main principles.
+0,price first principle and the time first principle.
+0,if the trading fails when these two principles have been applied we should refer to another principle.
+0,if the lowest buy price is higher than the highest sell price then the cts will make a match of this trading.
+0,the cts is just a subsystem of the whole stock trading system sts system.
+0,there are mainly six subsystems involved stock account operation financing account operation trade client serve network message promulgating centeral trading system and trading system manage.
+0,communications exist among these subsystems which complicates the relationships between subsystems.
+0,the cts receive instructions from trade client serve.
+0,then the cts produce new messages which to be sent to network message promulgating after deal with the instructions from trade client serve.
+0,also the system manager is authorization to access the information in cts.
+0,the central trading system cts is to complete the trading of stock.
+0,it analyses the instructions that enter the central trading system and divides them into several kinds of instructions.
+0,system will make a match between them under specifically prescripts.
+0,also central trading system provides some interfaces to send messages to other modules.
+0,there are mainly two kinds of users.
+0,the cts provides the terminal users easy operations that are confined to a series of mouse clicks and keyboard which compared to other systems are really much simplified.
+0,however for another user things are different.
+0,the maintainers of this cts must be familiar with java programming and the socket.
+0,when the system crashes down they can find the cause and fix it.
+0,when new requirements should be supported they can modify the program to make it fit.
+0,as the instruction is frequently operated in cts such as fetch deal with repeal and so on the cts is heavily transferred.
+0,the program must take this into consideration.
+0,the maintainers of cts should have good strategies to overcome crash of the system when overhead exceeds the capacity of it.
+0,there are no memory requirements.
+0,the computers must be equipped with web browsers such as internet explorer.
+0,the product must be stored in such a way that allows the client easy access to it.
+0,response time for loading the product should take no longer than five minutes.
+0,a general knowledge of basic computer skills is required to use the product.
+0,the purpose of the document is to collect and analyze all assorted ideas that have come up to define the system its requirements with respect to consumers.
+0,also we shall predict and sort out how we hope this product will be used in order to gain a better understanding of the project outline concepts that may be developed later and document ideas that are being considered but may be discarded as the product develops.
+0,in short the purpose of this srs document is to provide a detailed overview of our software product its parameters and goals.
+0,this document describes the project s target audience and its user interface hardware and software requirements.
+0,it defines how our client team and audience see the product and its functionality.
+0,nonetheless it helps any designer and developer to assist in software delivery lifecycle sdlc processes.
+0,primarily the scope pertains to the e store product features for making marvel electronics and home entertainment project live.
+0,it focuses on the company the stakeholders and applications which allow for online sales distribution and marketing of electronics.
+0,this srs is also aimed at specifying requirements of software to be developed but it can also be applied to assist in the selection of in house and commercial software products.
+0,the standard can be used to create software requirements specifications directly or can be used as a model for defining a organization or project specific standard.
+0,it does not identify any specific method nomenclature or tool for preparing an srs.
+0,the following fields are mandatory.
+0,pos department code.
+0,the department name must be unique across the inventory.
+0,the department s unique tag must be unique across the inventory.
+0,the pos department code must be at most characters long.
+0,the unique tag must be at most characters long.
+0,there must be at least one slot available in the department matrix to hold the new department.
+0,the department name must be unique across the inventory.
+0,the department s unique tag must be unique across the inventory.
+0,the unique tag must be at most characters long.
+0,a department cannot be deleted if it contains categories and or items.
+0,the system must ask for confirmation before deleting a department.
+0,the category name must be unique across the inventory.
+0,the category s unique tag must be unique across the inventory.
+0,the unique tag must be at most characters long.
+0,there must be at least one slot available in the category matrix at the level the new category will be created to hold the new category.
+0,the available options in the material finish color and features selectors should be the ones defined for the selected department see manage attributes and details.
+0,the fields and available options under the details section should be the ones defined for the selected category see manage attributes and details.
+0,when a stock item category is created a corresponding item is added to quickbooks pos when navigating to the desired item category departments and categories are displayed according to the rules defined in view inventory.
+0,items can be added at any level in the categorized inventory.
+0,only unique and stock items are tracked by the inventory system.
+0,only unique and stock items are available to be added in inventory management mode.
+0,under items can only be added in donation processing mode.
+0,information about under items is only added for the purpose of generating the donation receipt.
+0,when an item is added to the inventory the system updates quickbooks pos accordingly and promptly.
+0,a new item entry is created in pos for a unique item a donor in possession of a valid acquisition number can proceed to the receiving dock where the items to be donated will be received and processed and a donation receipt will be generated.
+0,alternatively a donor may go directly to the receiving dock in which case a new acquisition is created by the receiving associate before items can be received and processed.
+0,the screens used for the acquisition process should simplify and expedite the data entry process allowing the receiving associate to enter only the information needed to generate the donation receipt.
+0,additional attributes needed to complete the item information and effectively add the item to the inventory can be added at a second step after the receipt has been printed and the donor has been served.
+0,the receiving associate can print temporary acquisition labels for items that require further processing.
+0,pick up and decon crews may also initiate the receiving process entering as much detailed information about the donated items as desired and generating a donation receipt.
+0,they cannot however add items to the inventory or complete the acquisition process.
+0,a receiving associate is required to review all the acquisition information before those actions can take place.
+0,the system should integrate with construction junction s website and allow in addition to capacity outlined in later sections the ability for customers to view and search cj s inventory online.
+0,the item search can be done in two ways.
+0,the user may drill down to a particular category using the hierarchical inventory view displayed on the website.
+0,the user may perform a search for items by keyword basic search and other parameters such as price date received and or discount advanced search.
+0,the shop page on cj s website provides a starting concept of what the categorized inventory search might look like as does the website at www.
+0,contact us and online donation form website pages should integrate with salesforce and allow donors to upload images.
+0,the system should also include the implementation of salesforce.
+0,com ideas on cj s recycling resources webpage to allow for crowd sourcing the best recycling options for various materials in the pittsburgh metropolitan area.
+0,a blastworthy flag already exists on the item entry and update screens.
+0,that field can be used to flag an item for inclusion on the next e blast.
+0,when an item is flagged for e blast the system should verify that a stocking location has been set for the item.
+0,the system should allow construction junction staff to view a list of all items that are currently flagged as blastworthy that haven t yet been included in an e blast.
+0,the user can then select which flagged items should be included on the next e blast.
+0,the system should also provide an e blast preview screen that displays all items selected for that week s e blast and also all items that have been flagged but not selected.
+0,a cart with a laptop camera and bar code reader will be used by the construction junction staff when looking for items in the sales floor that should be e blasted.
+0,that allows the user to quickly locate an item in the inventory by scanning its tag flag items that aren t yet flagged and enter additional item information prior to the e blast.
+0,the system should integrate with vertical response or its future possible replacement exact target for the e blast email notifications.
+0,integration with the construction junction website to allow for online purchases and auctions automatically adding new items to the e commerce site and updating the site when items are sold either through the e commerce site or in the store.
+0,additionally support inventory that is available only through the e commerce site and cannot be purchased in the store.
+0,the website should present an add to cart button on search results and item detail screens and standard view shopping cart and checkout functionality as well as the option to forward item to a friend.
+0,the system does not need to support shipping options.
+0,all items purchased have to be picked up at the construction junction site.
+0,only items flagged as available for online purchase on the inventory system can be purchased online.
+0,those items are held in a separate area in the warehouse designated for online items and can only be purchased online.
+0,for items that are not available for online purchase the website should display a comment that reads you can purchase this item over the phone or at construction junction.
+0,when an item is purchased over the phone it is physically moved to the sold items area in the warehouse but should remain on the website for an additional days with sold appearing across the item name and image.
+0,customer wish list provide users with the ability to notify construction junction of items that they would like to purchase and be notified when if those items become available.
+0,customer wish lists would only be viewable by construction junction staff and will not be publicly available.
+0,construction junction website users should be able to select a particular item category in the inventory via an inventory or e blast view and add it to their wish list.
+0,users should also be able to add to the wish list any of the categories for items returned as search results.
+0,anytime a new item is received into the inventory in that category an automated notification is then sent to the user.
+0,the notification can be in multiple forms such as an email message text message voice blast twitter or facebook.
+0,that option is set by the user in his her website account settings.
+0,that means that in order to take advantage of the wish list functionality the user must be registered as a construction junction website member.
+0,inventory item story history the ability to add a history or back story for items with particularly unique or significant origins and share this store with customers on the website and in the store.
+0,the inventory item entry screen already provides a comments history text field that can be used for the purpose described.
+0,in addition to that the system should be able to generate and print signage containing the item history back story information and other item details.
+0,ideally the system would provide a few pre defined formats for signage that can be chosen from.
+0,calculate shipping weight extend the pickup decon logistics system to calculate donation size truck capacity.
+0,the described functionality is being implemented as part of the crm project.
+0,in addition the inventory management system needs to store item weight information and generate reports that indicate the total weight received sold and diverted from landfills.
+0,when the actual item weight is not indicated the system should use a pre set average weight for the item category.
+0,the system should also display the actual weight average for the category on the category configuration screen and also the number of items used when calculating that average.
+0,the inventory administrator can then decide whether to configure the category to use the actual average weight or a pre set average weight which would be set manually.
+0,the application is expected to operate via touch screen user interfaces and take advantage of that technology to be as fast efficient intuitive and flexible as possible while also minimizing the potential for errors and duplications.
+0,it should minimize the use of keyboard and mouse when processing acquisitions and should allow acquisitions to be completed with few clicks and page switches.
+0,the digital home system for the purposes of this document is a system that will allow a home user to manage devices that control the environment of a home.
+0,the user communicates through a personal web page on the digitalhome web server or on a local home server.
+0,the dh web server communicates through a home wireless gateway device with the sensor and controller devices in the home.
+0,the product is based on the digital home high level requirements definition hlrd is intended as a prototype which will allow business decisions to be made about future development of a commercial product.
+0,the scope of the project will be limited to the management of devices which control temperature humidity security and power to small appliances and lighting units through the use of a web ready device.
+0,the prototype dh software system will be situated in a simulated environment.
+0,there will be no actual physical home and all sensors and controllers will be simulated.
+0,the prototype version of the digitalhome system as specified in this document must be completed within twelve months of inception.
+0,the development team will consist of five engineers.
+0,the digitalhomeowner director will provide management and communication support.
+0,the development team will use the development process specified by the digital homeowner inc.
+0,where possible the digitalhome project will employ widely used accepted and available hardware and software technology and standards both for product elements and for development tools.
+0,for additional detail.
+0,because of potential market competition for digitalhome products the cost of digitalhome elements sensors controllers server tools etc.
+0,for this project should be minimized.
+0,as part of the final project report the development team will describe their efforts to minimize costs including price comparisons between dh elements and comparable competitive elements.
+0,the dh system will be tested in a simulated environment.
+0,there will be no actual physical home and all sensors and controllers will be simulated.
+0,however the simulated environment will be realistic and adhere to the physical properties and constraints of an actual home and to real sensors and controllers.
+0,the digitalhome system shall allow a web ready computer cell phone or pda to control a home s temperature humidity lights security and the state of small appliances.
+0,the communication center of the dh system shall be a dh home web server through which a user shall be able to monitor and control home devices and systems.
+0,each digitalhome shall contain a master control device the dh gateway device that connects to the home s broadband internet connection and uses wireless communication to send and receive communication between the digitalhome system and the home devices and systems.
+0,the digitalhome shall be equipped with various environmental controllers and sensors temperature controller sensors.
+0,humidistats contact sensors security sound and light alarms and power switches.
+0,using wireless communication sensor values can be read and saved in the home database.
+0,controller values can be sent to controllers to change the dh environment.
+0,displays of environmental conditions temperature humidity contact sensors and power switches shall be updated at least every two seconds.
+0,sensor temperature humidity contact sensor power state shall have a minimum data acquisition rate of hz.
+0,an environmental sensor or controller device shall have to be within feet of the master control device in order to be in communication with the system.
+0,the digitalhome system must be highly reliable with no more than failure per hours of operation.
+0,the digital home system shall incorporate backup and recovery mechanisms.
+0,the dh system will backup all system data configuration default parameter settings planning and usage data on a daily basis with the backup time set by the dh technician at system set up.
+0,this document details the software requirements specification for the pdf split and merge v.
+0,open source project.
+0,it will later be used as a base for the extension of the existing software itself.
+0,this document follows the ieee standard for software requirements specification documents.
+0,pdf is the most popular file format for secure dependable electronic information exchange.
+0,it is used by more than half billion people and has become one of the world s most trusted technologies.
+0,pdf files can be viewed from almost any platform macintosh windows unix and linux as well as numerous mobile platforms and devices but the manipulation of these files is not usually free.
+0,the purpose of this project is to provide an easy way to handle pdf files efficiently and free through a simple graphical interface.
+0,pdf split and merge was created prior to this document so all requirements stated here are already satisfied.
+0,it is very important to update this document with every future requirement and clarify its priority for consistency purposes so that this document can remain useful.
+0,because of the fact that pdfsam is already implemented parts of this document have a style similar to a manual document.
+0,some technical information has been included.
+0,readers can refer to appendix a at the end of the document for terms definition glossary.
+0,splitting pdf documents into chapters single pages etc.
+0,merging many pdf documents or subsections of them.
+0,extract section from a pdf document in a single pdf document.
+0,mix alternate pages taken from two pdf documents in straight or reverse order into a single document.
+0,rotate pages of the selected pdf documents.
+0,visually reorder pages of a selected pdf document.
+0,visually compose a document dragging pages from selected pdf documents.
+0,save and load the working environment so that recurrent jobs are automated.
+0,managing pdfsam settings and setting an environment to load at start up.
+0,currently telephonic orders are a significant source of business at gamma j which is both expensive and labor extensive.
+0,the organization has to figure out a way to have a smooth transition of orders coming in through telephones to the new online ordering system without loosing business to the competitor.
+0,gamma j depends mainly on fed ex for its tracking number and transportation needs to ship the orders.
+0,a separate module to generate the tracking numbers and having a transportation system will be considered in the future.
+0,this document is intended to flush out the requirements by the customer gamma j.
+0,the customer can review this document to ensure their needs along with the needs of their user s are being met in their new web store program.
+0,the development team will also use this document for guidance on overall design and implementation of the web store system.
+0,the test and verification team can reference this to ensure the requirements are being meet for the customer.
+0,finally the tech writer will use this to assist with user documentation.
+0,this document is designed to be review from beginning to end however readers who are new to technical documentation may want to refer to appendix e.
+0,account management am high priority.
+0,am allows users to create edit and view accounts information.
+0,it also allows the user to login out of the system.
+0,search engine se medium priority.
+0,se is the tool that assists the user in finding a specific item in the database.
+0,it can receive search criteria find search criteria and return the results of the search.
+0,product management pm high priority.
+0,pm allows sales personnel to manage the product line shown on the web site.
+0,is generally the owner that takes care of maintenance for the web store system.
+0,the administrator will be in charge of assigning privileges of accounts.
+0,suggested more than one individual can have administrator privilege to ensure advisability.
+0,full documentation will be provided to the administrator to assist with this process.
+0,is generally the owner of the web store tasked with updating inventory and product line descriptions.
+0,once added sales personnel can add delete and change descriptions pictures prices and when ready flag items for customers to buy.
+0,a customer is an individual wishing to purchase inventory from gamma j s web store.
+0,the web store will have a variety of clientele depending upon the inventory loaded on the key.
+0,when creating a new account on web store it will default as a customer account.
+0,later if the account needs to be upgraded the administrator can accomplish this via the administrator interface.
+0,this software requirements specification srs specifies the qualification requirements for the energy management system themas.
+0,it provides a technical description of all so ftware requirements of the system provides traceability of software capability requirements to the statement of work and identifies external interfaces.
+0,this document is intended for use by the design requirements team principle software architect and other parties interested in the development and progression of themas.
+0,the scope of this document is confined to only the software requirements for the themas system.
+0,only those conditions expressed with the imperative shall are to be interp reted as binding requirements for this srs.
+0,this document provides a detailed definition of all requirements for the themas system.
+0,it does not provide a detailed definition of the exact systems that will interface with themas.
+0,the srs shall give a prototype of a simulated thermostat for verification and validation of themas reliability.
+0,the requirements specified in this document are to be used as the basis for software design of the themas system.
+0,the themas system is divided into four major sections.
+0,monitor temperature determine utilization initialize system and system reports.
+0,all four sections have an associated software configuration item all except the system reports have an associated hardware configuration item.
+0,the hardware requirements are contained in the system specification.
+0,the functions of the software for the system are contained in the following paragraphs.
+0,the system reports function receives event data from the themas system.
+0,this function is a database that stores all the events in the themas system.
+0,this function is mainly for the use of the supervisor of the themas system to maintain an efficient heating and cooling system.
+0,the only process that interacts with the system reports function is the generate event data process.
+0,user characteristics this system is intended to be used by people that maintain the heating and cooling systems in a building.
+0,the system should not need intervention from outside users other than the supervisor to maintain operation of themas.
+0,the system should provide warnings to the supervisor about faulty temperatures.
+0,the displaying of the current status of the system to the supervisor should not contain excessive information which could confuse the supervisor.
+0,the system should provide information in the form of reports to the supervisor so that the system can be run efficiently.
+0,the general constraints of the themas system focus on the functionality provided by the external devices connected to i t.
+0,the thermostats shall only provide temperature values and temperature settings.
+0,the heating and cooling units provide no feedback to the themas system.
+0,when a signal is sent to a heating or cooling unit no signal shall be available to allow the themas system to determine if the signal sent to the unit was realized by the unit.
+0,it is assumed that the thermostat is capable of returning the current temperature and the current desired temperature setting to the themas system.
+0,the thermostat is constantly returning these values with no real time delay in between the thermostat and the themas system.
+0,the thermostat also has the capability of being set and controlled by a user of the themas system.
+0,all data sent by the thermostat is in the correct format for the themas system to use.
+0,the central part of the avionics architecture of nasa s x crew return vehicle is a quad redundant flight critical computer fcc which is based on draper s fault tolerant parallel processor ftpp architecture.
+0,the fcc consists of four flight critical processors fcps operating as a quad redundant virtual group vg five simplex instrument control processors icps running as five separate vgs five draper network elements nes four multi protocol rs cards sixteen digital i o dio cards four analog i o cards and four decomm cards.
+0,the fcps operating as a single quad redundant set function as the main application processor.
+0,a complete suite of fault tolerant system services ftss software will be loaded onto the fcps and provide an application programming interface api between nasa s application code and the underlying hardware motorola power pcs and a cots operating system vxworks.
+0,the ftss software provides scheduling services communication services time services memory management services fault detection and isolation redundancy management system support services and a mission management template.
+0,a reduced set of ftss communications services will be loaded onto each icp and will provide an api between the i o software running on the icps and the nes.
+0,this deliverable d entitled functional specification and architecture has the intention of summarizing the progress in the beyond project and clarifying the approach in the process of going from the first to the second milestone.
+0,as such d is a so called common deliverable beyond workpackage borders.
+0,there is no ambition to strive for completeness in this document.
+0,all beyond project members have been approached and partners themselves have made a selection of appropriate projects that could support the goal of this deliverable.
+0,it was decided that a domain oriented approach provides a comprehensive structure for this deliverable.
+0,it supports the placement of the individual projects in their context and allows key aspects of the involved workpackages multimodality adaptivity simulation and usability to be emphasized.
+0,d functional specification and architecture can to some extent be considered as a second iteration on d requirements and usability methodology.
+0,the rationale behind this conclusion is as follows.
+0,after describing key concepts in deliverable d the beyond partners have contributed to d in which the requirements have been detailed and the usability methodology has been described.
+0,most of the beyond partners planned to have a first prototype at the time of the first milestone after one year of research in the consortium.
+0,this is in particular the case for the partners that are directly active in one of the application domains public domain home domain vetronics domain avionics domain.
+0,consequently the requirements stated in d are considered as a kind of checklist for the first prototype.
+0,based on the lessons learnt from the first prototype ideas for the second prototype have been collected.
+0,so we can consider the presented d as a description of the functional specifications for the second prototype to be delivered at milestone two at the end of the beyond project after two years of research in the consortium.
+0,it seems acceptable that the relation d milestone prototype is the same as d milestone prototype.
+0,also it is in accordance with software engineering terminology that d speaks about functional specifications which are usually closer to the design architecture than the requirements in d which were most of the time high level requirements not very detailed.
+0,besides this it turns out that most of the beyond partners that are directly active in one of the application domains public domain home domain vetronics domain avionics domain have a prototype demonstrator that evolves from a version at milestone one to a final version at least within the beyond project context at milestone two.
+0,this as opposed to the realization of new prototypes during the second half of the project period.
+0,the c c infrastructure must interconnect several dissimilar traffic management systems.
+0,in order to create the c c infrastructure interfaces to the existing systems will be created.
+0,the data from these interfaces will communicate with the existing system in a system specific format.
+0,the data being deposited into the c c infrastructure will be converted to a standard format based on the its standards.
+0,the c c infrastructure is being created using a series of building blocks.
+0,these building blocks allow the software to be utilized in a number of configurations by simply altering the configuration parameters of the software.
+0,in a region such as dallas ft.
+0,worth multiple instances of the building blocks will be utilized.
+0,the software is being designed so that multiple instances of a building block can be deployed by simply configuring the building block of operation within a specific agency.
+0,the following sections define the requirements for the c c project.
+0,requirements are listed in separate sections and in table format for each functional area.
+0,the c c project mnemonic uniquely identifies the c c project to distinguish its requirements from the requirements of other its systems.
+0,the mnemonic for the c c project is c c.
+0,the requirement category mnemonic is a two letter mnemonic for each functional area.
+0,the requirement numbers are a combination of target advanced traffic management system atms and sequential within a given functional area.
+0,the relationship between each requirement and the project item s that it addresses is documented along with each requirement identified in section.
+0,a requirement may address any number of project items including a system level requirement a customer request document e.
+0,an rfp a proposal or other documentation.
+0,a requirement may also address a higher level design element.
+0,the general constraints on the development of the system are as follows.
+0,the system shall be platform independent and function properly on any operating system.
+0,specifically the system shall be tested under sun solaris windows and linux.
+0,it is intended for the system to run under any variation of the microsoft windows operating system later than windows.
+0,the system shall be designed in such a way as to minimize the number of windows opened by the application.
+0,for example it is not acceptable to open a new window for every output file generated by hats sml at the time each file is received by the hats gui.
+0,the system shall be developed using the java programming language.
+0,the system shall be completed by december.
+0,assumptions and dependencies the following assumptions are made with respect to the hats gui.
+0,a jvm shall have been installed on the system under which the hats gui is running.
+0,an ml interpreter shall have been installed on the system under which the hats gui is running.
+0,hats shall run on the same system on which the hats gui is running.
+0,hats shall support only one user at a time.
+0,users shall have a high level of sophistication and shall not need guidance in the form of extensive help messages.
+0,the host os shall support a hierarchical tree structured file system.
+0,the development team shall use this srs to implement the system.
+0,hats sml version.
+0,shall be available by october.
+0,the srs is divided into four major sections.
+0,introduction general description specific requirements and appendices.
+0,section the general description describes the product its functionality and its structure.
+0,product features which describes from a high level point of view the main features of the software user characteristics which identifies the different types of system users and describes their individual interaction with the system.
+0,use cases are used to define the user characteristics a description of the actors use cases and scenarios are included in this section general constraints of the system and assumptions and dependencies of the system.
+0,section describes specific requirements.
+0,it consists of external interface requirements which describes the requirements for user hardware software and communications interfaces behavioral requirements which divides behavioral requirements into the following categories.
+0,related real world objects stimulus related features and functional requirements non behavioral requirements which includes performance requirements qualitative requirements and design and implementation constraints and other requirements which will list all other requirements not included in the previous sections.
+0,appendix a contains the object model for the hats gui.
+0,hats was developed to explore transformation based software development.
+0,transformations are a wellknown formal method for developing software.
+0,the hats gui is intended to provide hats users with an intuitive graphical interface to the hats system.
+0,hats is publicly available and the hats gui will be delivered with hats.
+0,the purpose of hats is to perform program transformations in a provably correct fashion.
+0,this enables users to construct software by transforming a target program or simply a target written in an abstract language to a transformed output program written in a more concrete language.
+0,by demonstrating that the transformations preserve the semantics of the target program the user has assurance that the transformed program is correct.
+0,an overview of the hats architecture is given in figure below.
+0,hats applies a sequence of transformations to a target program by following instructions in a transformation language program.
+0,a transformation language program consists of sequences of transformation instructions and constructs to control the application of transformations.
+0,hats provides a set of services that execute transformation language programs.
+0,it is written in the language ml which has been ported to most common computer platforms.
+0,hats services are invoked by executing ml programs.
+0,there is one ml program for each function that hats provides.
+0,the collection of programs is referred to in this document at hats sml and is described in appendix d.
+0,hats sml executes transformation language programs written in a particular problem domain.
+0,the core of a problem domain describes the language over which transformations may occur.
+0,it consists of three elements each of which is stored in a separate file.
+0,a description of tokens in a language a description of a context free grammar for a language and a library of user defined functions that evaluate some of the function symbols in the language.
+0,an application consists of a domain rules for transforming input strings to output strings and sets of inputs and outputs.
+0,these rules are applied to a target program.
+0,the result of applying a sequence of transformations to a target program may be an sdt a pretty printed text string or both.
+0,the pretty printed text string is generated by applying pretty print rules to an sdt.
+0,the pretty print rules are contained in a pretty print style file.
+0,there may be any number of pretty print style files target programs transformation language programs or output files in a given application.
+0,additionally there may be a parsed version of a transformation language program.
+0,a summary of the files file extensions and names is given in table.
+0,the libra scheduler is intended to work as an add on to the queuing scheduling and resource managing module of the open source sun grid engine cluster management system previously known as codine.
+0,the scheduler will offer market based economy driven service for managing batch jobs on clusters by scheduling cpu time according to user utility rather than system performance considerations.
+0,hence the main objective of libra is to provide quality of service qos computational economy in cluster computing.
+0,as part of the project the libra scheduler will only manage sequential and embarrassingly parallel batch jobs to be run on a homogenous linux cluster although its functionality can be adapted to schedule resources other than cpu time even on a heterogeneous cluster.
+0,to provide qos to users there will be no mechanism for users to interact with each other and bargain on the use of resources according to their considerations as is provided in a grid computing environment by projects like nimrod g.
+0,enable agents to broadcast a message to all the agents within the same local network.
+0,enable agents to multicast a message to all the agents within the same multicast address.
+0,enable agents to unicast a message to other agents within organization.
+0,allow agents to choose among unicast multicast and broadcast communication.
+0,allow agents to join and leave multicast group.
+0,provide message encryption and decryption techniques for secured communication.
+0,allow agents to choose to encrypt or not to encrypt message.
+0,we assume that each agent knows the address of destinating agents in order to send unicast message.
+0,we assume that each agent has enough knowledge to decide the best way to communicate with the other agents.
+0,in the case of using secured multicast communication we assume that there is an agent whom each agent can request for the same encryption and decryption key.
+0,this agent should maintain a list of agents who are allowed to get the keys.
+0,we assume that each agent knows the multicast address in order to send multicast message.
+0,broadcast communication.
+0,agentmom shall support the ability to sent broadcast message.
+0,agentmom shall support the ability to receive broadcast message.
+0,broadcast message shall be sent to all possible hosts under the same local network.
+0,agentmom shall support the ability to encrypt unicast message.
+0,agentmom shall support the ability to decrypt unicast message.
+0,agentmom shall allow an agent to decide whether or not to encrypt a message.
+0,agentmom shall automatically decrypt encrypted message.
+0,agentmom shall support the ability to encrypt multicast message.
+0,agentmom shall support the ability to decrypt multicast message.
+0,agentmom with shall support the use of the architecture that agent directly controls the conversations.
+0,agentmom shall support the use of the architecture that agent s components control the conversations.
+0,a requirement is defined as a condition or capability to which a system must conform.
+0,functional requirements specify actions that a system must be able to perform without taking physical constraints into consideration.
+0,these are often best described in a use case model and in use cases.
+0,functional requirements thus specify the input and output behaviour of a system.
+0,requirements that are not functional are sometimes called non functional requirements.
+0,many requirements are non functional and describe only attributes of the system or attributes of the system environment.
+0,functional requirements specify actions that a system must be able to perform without taking physical constraints into consideration.
+0,functional requirements thus specify the input and output behaviour of a system.
+0,a list of these functional requirements is given below with an identification and a short description for each of them.
+0,a special web site single page will also be built to allow the cia administrator to change her account s password.
+0,only one cia administrator account will be created per member state.
+0,all users are managed in the active directory.
+0,the tachonet administrator will also be assigned one account.
+0,colorkast has identified two user classes for access to the new application.
+0,the first user class is default for all users and allows no administrative functionality whatsoever.
+0,the second class the administrative user is composed of several subclasses for the secure management of access to data and permissions throughout the organization.
+0,the server requires at least a ghz processor and mb of system memory for each group of employee or consumer users.
+0,the web based client is compatible with most operating systems and requires a working installation of internet explorer.
+0,or mozilla.
+0,the client computer should match or exceed the system requirements specified for the web browser intended for use with the client application.
+0,a few issues limit our choices when implementing a suitable solution for the abc paint project.
+0,it is very important that the application be web based.
+0,we understand that in any design choice precedence should be given to the implementation of a completely web based client.
+0,wherever possible the application should retain full usability with a keyboard input device only.
+0,this allows an easy transition for employees who are primarily used to keyboard input in current abc paint business applications.
+0,finally a utility should be available to report errors.
+0,in all instances the application should attempt full recovery and report errors automatically to colorkast without encroaching on the user experience.
+0,we assume that the application will only be in use for duration of the wide installation of the software and hardware as defined in this document that is required for installation of the server component and use of the client application.
+0,we assume that finding the nearest colors in the red green blue color space will always give acceptably similar colors to the given color for the purpose of color search.
+0,the application will be dependant on third party databases for storage of paint information and implementation of the color search engine.
+0,the databases will give responses to queries in subsecond time.
